@@ -1,0 +1,113 @@
+---
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+int HOME_DESC HOME_ISLAND 
+---
+<style>
+.banner {
+  height: auto;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.banner * {
+  color: #fff !important;
+}
+
+.banner h1 {
+  margin: 1rem 0 0;
+}
+
+.euboea {
+  display: inline-block;
+  fill: #fff;
+  margin: -.5rem 1rem;
+  vertical-align: top;
+  width: 3rem;
+}
+
+.banner svg {
+  fill: #fff;
+  height: 100%;
+  max-height: 300px;
+}
+
+.loud {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -100px;
+}
+
+.banner .con {
+  padding: 0 1rem;
+}
+
+.logo4 svg {
+  margin-top: 3rem;
+  max-height: 500px !important;
+}
+
+.words {
+  display: inline-block;
+  margin-left: 4vw;
+  position: relative;
+  max-width: 600px;
+  overflow:hidden;
+  width: 100%;
+}
+
+.words svg {
+  animation: cw 8s infinite;
+  display: block;
+  max-width: 100%;
+  opacity: 0;
+  position: absolute;
+}
+
+.words svg:nth-child(1) { animation-delay: 0s; }
+.words svg:nth-child(2) { animation-delay: 2s; }
+.words svg:nth-child(3) { animation-delay: 4s; }
+.words svg:nth-child(4) { animation-delay: 6s; }
+
+@keyframes cw {
+  0%   { opacity: 0; transform: translateY(30%); }
+  5%   { opacity: 1; transform: translateY(0); }
+  25%  { opacity: 1; transform: translateY(0); }
+  30%  { opacity: 0; transform: translateY(-30%); }
+  100% { opacity: 0; transform: translateY(-30%); }
+}
+
+.nav-toggle {
+  filter: none !important;
+}
+</style>
+<header class=banner>
+---
+case $images in
+  '') style= no_caption= src="$image" alt="${image_alt:-banner}" use img ;;
+   *) style= class= use fadeshow ;;
+esac
+no_wave= bg=none class= use nav
+---
+<div class=con>
+    <span class=logo4>$(cat "$SITE_PUB_DIR/wild.svg")</span>
+    <span class=loud>$(cat "$SITE_PUB_DIR/&.svg")
+      <span class=words>
+        $(cat "$SITE_PUB_DIR/natural.svg")
+        $(cat "$SITE_PUB_DIR/pure.svg")
+        $(cat "$SITE_PUB_DIR/raw.svg")
+        $(cat "$SITE_PUB_DIR/alive.svg")
+      </span>
+    </span>
+  </div>
+  <div class=con>
+    <div class=row>
+      <div class=col>
+        <p>$HOME_DESC</p>
+      </div>
+      <div class=col>
+        <p class=r>$HOME_ISLAND<span class=euboea>$(cat $SITE_PUB_DIR/euboea.svg)</span></p>
+      </div>
+    </div>
+  </div>
+</header>
