@@ -1,0 +1,116 @@
+#!/bin/sh -eu
+#
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+#
+# NOTE: This file is a polyglot and is read by both POSIX shell and POSIX make.
+#       The way this file is written is very specific.
+#
+
+#
+# Path to website assets.
+#
+SITE_ASS_DIR=ass
+SITE_PUB_DIR=pub
+SITE_TPL_DIR=tpl
+SITE_TMP_DIR=/tmp
+
+#
+# DPP settings.
+#
+SITE_DPP_PROG=dpp
+SITE_DPP_COMPILE_PROG=dpp-compile
+SITE_DPP_INCLUDE=./magic
+SITE_DPP_BLOCK=---
+SITE_DPP_CAT="md2html --github"
+
+#
+# Website metadata.
+#
+SITE_TITLE=WILD
+SITE_URL=https://wild.gr
+SITE_BUG_URL=https://github.com/dylanaraps/wild.gr/issues
+SITE_AUTHOR="Dylan Araps"
+SITE_AUTHOR_SITE=https://dylan.gr
+SITE_AUTHOR_EMAIL=dylan@wild.gr
+SITE_COPYRIGHT=2026
+SITE_STYLE=style.css  # NOTE: value must be basename.
+
+#
+# Website internationalization.
+#
+SITE_LANG_TEXT=./language
+SITE_LANG="en el fr de"
+SITE_LANG_DISPLAY="en ελ fr de"
+
+#
+# Contact Information.
+#
+SITE_EMAIL_CONTACT=contact@wild.gr
+SITE_EMAIL_SALES=sales@wild.gr
+SITE_EMAIL_VOLUNTEER=volunteer@wild.gr
+SITE_PHONE=+306934541919
+SITE_PHONE_PRETTY="(+30) 693 454 1919"
+SITE_ADDRESS=https://maps.app.goo.gl/TpVJAPTQ5A8D5qJB6
+SITE_VAT="EL180826397"
+SITE_TAX="Chalkida"
+SITE_GEMI="180497622000"
+SITE_INSTAGRAM=wild_natural_farm
+
+#
+# Website favicons.
+#
+SITE_FAVICON_ICO=favicon.ico
+SITE_FAVICON_SVG=favicon.svg
+SITE_FAVICON_IOS=favicon-ios.png
+
+#
+# Website Opengraph/Twitter card information.
+#
+SITE_SOCIAL_IMAGE="/2025/20250511104645h-1920.jpg"
+SITE_SOCIAL_IMAGE_ALT="Dylan in olive grove"
+
+#
+# Local server.
+#
+SITE_SERVE_PROG=httpd
+SITE_SERVE_ARG1=-fh
+SITE_SERVE_ARG2=${SITE_PUB_DIR}
+
+#
+# Ninja settings.
+#
+SITE_NINJA_CMD="ninja"
+SITE_NINJA_FILE=config.ninja
+
+#
+# Asset processing commands.
+#
+SITE_CSS_CMD="lightningcss -m"
+SITE_MINIFY_CMD="minhtml --minify-css --minify-js"
+SITE_MAGICK_CMD="magick"
+SITE_OXIPNG_CMD="oxipng --scale16 --strip all -ao 6"
+SITE_OXVG_CMD="oxvg optimize"
+SITE_CWEBP_CMD="cwebp"
+
+#
+# Image optimization configs.
+# Sources:
+# - https://stackoverflow.com/a/7262050
+# - https://developers.google.com/speed/docs/insights/OptimizeImages
+#
+SITE_IMG_FMT="jpg webp"
+SITE_MAGICK_COMMON="-strip -auto-orient"
+SITE_MAGICK_JPEG="-interlace Plane -sampling-factor 4:2:0 -define jpeg:dct-method=float -quality 85% -interlace JPEG -colorspace sRGB"
+SITE_CWEBP_OPT="-quiet -preset photo -q 80 -m 6 -sharp_yuv -metadata none"
+
+#
+# Image optimization sizes.
+# NOTE: Must be from smallest to largest.
+#
+SITE_IMG_SIZES="1366 1920"
+
+#
+# Ensure the config file is only loaded once.
+#
+SITE_CONFIG_LOADED=1
+

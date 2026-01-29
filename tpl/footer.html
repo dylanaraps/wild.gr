@@ -1,0 +1,53 @@
+---
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+int ADDRESS MINI_DESC MENU ELISSAVET REPORT_ISSUE PRODUCTS NEWS CONTACT VOLUNTEER ABOUT OLIVE_OIL AMBER_WINE AMBER_VINEGAR SOLE_TRADER PRIVACY_POLICY
+---
+<footer>
+--- wave_bg="${wave_bg:-var(--body-bg)}" use wave
+  <div class=con>
+  <div class="row footer-links">
+    <div class=col-lg>
+    <p class=logo3>$(cat "$SITE_PUB_DIR/logo2.svg")</p>
+    <p>$MINI_DESC</p>
+    <ul role=list>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/privacy>$PRIVACY_POLICY</a></li>
+    </ul>
+    </div>
+
+    <div class=col-lg>
+    <p>$MENU</p>
+    <ul role=list>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/about>$ABOUT</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/volunteer>$VOLUNTEER</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/products>$PRODUCTS</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/oil>$OLIVE_OIL</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/wine>$AMBER_WINE</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/vinegar>$AMBER_VINEGAR</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/news>$NEWS</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/contact>$CONTACT</a></li>
+    </ul>
+    </div>
+
+    <div class=col-lg>
+    <p>$CONTACT</p>
+    <ul role=list>
+    <li>$ELISSAVET</li>
+    <li>$SOLE_TRADER</li>
+    ${SITE_ADDRESS:+<li>$ADDRESS</li>}
+    ${SITE_PHONE:+<li><a href="tel:$SITE_PHONE">$SITE_PHONE_PRETTY</a></li>}
+    <li style="height:1rem"></li>
+    ${SITE_EMAIL_CONTACT:+<li><i>$(cat < "$SITE_PUB_DIR/icon/mail.svg")</i> <a href="mailto:$SITE_EMAIL_CONTACT">$SITE_EMAIL_CONTACT</a></li>}
+    ${SITE_INSTAGRAM:+<li><i>$(cat < "$SITE_PUB_DIR/icon/instagram.svg")</i> <a href="https://www.instagram.com/$SITE_INSTAGRAM/">@$SITE_INSTAGRAM</a></li>}
+    </ul>
+    </div>
+  </div>
+  <div class=row>
+    <div class=col>
+      <p>© $SITE_COPYRIGHT · $ELISSAVET</p>
+    </div>
+    <div class=col>
+      <p class=r>Website by $SITE_AUTHOR</p>
+    </div>
+  </div>
+  </div>
+</footer>

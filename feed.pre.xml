@@ -1,0 +1,35 @@
+---int ABOUT_DESC
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="${SITE_URL:?}/feed.xml" rel="self" type="application/rss+xml"/>
+<title>${SITE_TITLE:?} - News</title>
+<description>$(fld "$ABOUT_DESC")</description>
+<link>${SITE_URL:?}/news</link>
+<managingEditor>${SITE_AUTHOR_EMAIL:?} (${SITE_AUTHOR:?})</managingEditor>
+<copyright>${SITE_AUTHOR:?}</copyright>
+<language>en-us</language>
+---
+src news.md
+set -- $depend
+
+case $1 in "$depend")
+  set --
+esac
+
+for f do
+  src "$f"
+  cat <<EOF
+<item>
+<title>$title</title>
+<author>${email:-$SITE_AUTHOR_EMAIL} (${author:-$SITE_AUTHOR})</author>
+<link>$SITE_URL/${f%.md}</link>
+<guid>$SITE_URL/${f%.md}</guid>${excerpt:+
+<description>$excerpt</description>}${date:+
+<pubDate>$date</pubDate>}
+</item>
+EOF
+done
+---
+</channel>
+</rss>

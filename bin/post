@@ -1,0 +1,40 @@
+#!/bin/sh -efu
+#
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+#
+# Create a blog post.
+
+# Obtain the current date in seconds and also in RFC-822 for use in RSS feed.
+t=$(LC_ALL=C date '+%Y%m%d%H%M@%a, %d %b %Y %H:%M:%S %z')
+
+DPP_FILE=${t%%@*}.md
+
+. ./magic
+
+cat <<EOF > "$DPP_FILE"
+---
+title="null"
+date="${t#*@}"
+excerpt=""
+use head
+use nav
+---
+
+<article>
+
+--- use post
+
+...
+
+<p><span style="float:right">—\${author:-"\$SITE_AUTHOR"}</span></p>
+</article>
+
+--- use footer
+--- sel="nav,article,img" shift=2rem use fade
+
+EOF
+
+echo "touch ${t%%@*}.md" >&2
+"${MAKE:-make}" configure
+"${EDITOR:-vi}" "${t%%@*}.md"
+

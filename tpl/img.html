@@ -1,0 +1,28 @@
+---
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+case $src in
+*.jpg) fd=${src%"${src#2[0-9][0-9][0-9]}"} f=$SITE_PUB_DIR/${fd:+"$fd/"}${src%.jpg} ;;
+      *) echo "src must be a .jpg" >&2; exit 1 ;;
+esac
+
+read -r clr < "${f%.jpg}.clr" 2>/dev/null || clr=#000
+---
+
+<figure${id:+ id=\"$id\"}${class:+ class=\"$class\"} style="background-color:#$clr;${cover+$cover;height:100%;}${style:-}">
+  ${href:+<a href=\"$f-${SITE_IMG_SIZES##* }.jpg\">}
+  <picture>
+
+---
+for s in $SITE_IMG_SIZES; do
+for F in ${SITE_IMG_FMT:-jpg}; do
+  _F=; case $F in jpg) _F=jpeg; esac
+  echo "<source media=\"(max-width:${s}px)\" srcset=\"${f#"$SITE_PUB_DIR"}-$s.$F\" type=\"image/${_F:-"$F"}\"/>"
+done
+done
+---
+<img decoding=async ${attr:-loading=lazy} src="${f#"$SITE_PUB_DIR"}-${SITE_IMG_SIZES##* }.jpg" alt="$alt" style="${cover+object-fit:cover;height:100%;}">
+  </picture>
+  ${href:+</a>}
+  ${no_caption-<figcaption>${caption:-$alt}</figcaption>}
+</figure>
+

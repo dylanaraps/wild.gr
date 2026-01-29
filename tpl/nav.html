@@ -1,0 +1,54 @@
+---
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+case $DPP_FILE in *index.html)
+logo=logo
+esac
+int ABOUT AMBER_WINE AMBER_VINEGAR CONTACT NEWS OLIVE_OIL PRODUCTS VOLUNTEER
+---
+
+<nav${bg:+ style=\"--nav-bg:$bg;--nav-fg:${fg:-#000}\"}${class:+ class=\"$class\"}>
+  <div class=con>
+  <a href=/${DPP_LANG:+"$DPP_LANG/"} aria-label="WILD Homepage" class=${logo:-logo2}>$(cat "$SITE_PUB_DIR/${logo:-logo2}.svg")</a>
+
+  <ul>
+    <li>
+      <a href=${DPP_LANG:+/"$DPP_LANG"}/about aria-haspopup="true">$ABOUT</a>
+      <input type="checkbox" id="about-toggle" class="nav-checkbox" aria-label="About menu">
+      <label for="about-toggle" class="nav-toggle"></label>
+      <ul class=nav-dropdown aria-label="submenu">
+        <li><a href=${DPP_LANG:+/"$DPP_LANG"}/volunteer>$VOLUNTEER</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href=${DPP_LANG:+/"$DPP_LANG"}/products aria-haspopup="true">$PRODUCTS</a>
+      <input type="checkbox" id="products-toggle" class="nav-checkbox" aria-label="Products menu">
+      <label for="products-toggle" class="nav-toggle"></label>
+      <ul class=nav-dropdown aria-label="submenu">
+        <li><a href=${DPP_LANG:+/"$DPP_LANG"}/wine>$AMBER_WINE</a></li>
+        <li><a href=${DPP_LANG:+/"$DPP_LANG"}/oil>$OLIVE_OIL</a></li>
+        <li><a href=${DPP_LANG:+/"$DPP_LANG"}/vinegar>$AMBER_VINEGAR</a></li>
+      </ul>
+    </li>
+
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/news>$NEWS</a></li>
+    <li><a href=${DPP_LANG:+/"$DPP_LANG"}/contact>$CONTACT</a></li>
+
+    <li id=lang-sel>
+---
+f=${DPP_FILE##*/}
+f=${f#index}
+d=$SITE_LANG_DISPLAY
+for l in $SITE_LANG; do
+  l2=${l#"$DPP_LANG_DEF"}
+  _l="${_l:-} <a id=$l class=u href=${l2:+/"$l2"}/${f%.html}>${d%% *}</a> |"
+  d=${d#* }
+done
+echo "${_l%'|'}"
+---
+</li>
+  </ul>
+  </div>
+
+  ${no_wave-${bg:+"$(flip=1 height=100px use wave)"}}
+</nav>

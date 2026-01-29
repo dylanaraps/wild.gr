@@ -1,0 +1,78 @@
+---# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+---# Simple slideshow in pure css. -->
+---
+set -- $images
+: "${sec_per_slide:=4}"
+: "${sec_total:=$(($# * sec_per_slide))}"
+
+fad=$((sec_per_slide * ${sec_fade:=4}))
+
+f1=$((((sec_per_slide * 10000) - fad) / sec_total))
+f1=${f1%??}.${f1#??}%
+
+f2=$(((sec_per_slide * 10000) / sec_total))
+f2=${f2%??}.${f2#??}%
+
+f3=$((((sec_per_slide * 10000) + fad) / sec_total))
+f3=${f3%??}.${f3#??}%
+---
+<style>
+.fadeshow {
+  background: #000;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.fadeshow > * {
+  backface-visibility: hidden;
+  filter: brightness(.66);
+  height: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  z-index: -2;
+}
+
+.fadeshow > *:not(:first-child) {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+@keyframes fa {
+    0% { opacity: 1; }
+   $f1 { opacity: 1; }
+   $f2 { opacity: 1; transform: scale(1.05); }
+   $f3 { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fadeshow > * {
+    animation: fa ${sec_total}s linear infinite 0s;
+  }
+}
+---
+for f do
+  i=$((i + 1))
+  echo ".fadeshow>*:nth-child($i){animation-delay:$(((i - 1) * sec_per_slide))s}"
+done
+---
+</style>
+
+<div class=fadeshow>
+---
+attr=fetchpriority=high
+
+for f do
+  j=$((j + 1))
+  no_caption= src="$f" alt="" use img
+  attr=
+done
+---
+</div>

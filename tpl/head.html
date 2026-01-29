@@ -1,0 +1,75 @@
+---
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+int META_DESC DISCLAIMER
+---
+<!doctype html>
+<html lang=${DPP_LANG:-"$DPP_LANG_DEF"}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <title>$SITE_TITLE${meta_title:-"${title:+ - $title}"}</title>
+
+  <style>
+  $(cat "$SITE_PUB_DIR/${SITE_STYLE%.*}.css")
+
+  /* Highlight the current page if it exists in <nav>. */
+  nav li > a[href="/${DPP_FILE%.html}"]{border-bottom:5px solid}
+
+  /* Highlight selected language. */
+  #lang-sel #${DPP_LANG:-"$DPP_LANG_DEF"} {
+    font-weight: bold;
+    border-bottom: 5px solid;
+  }
+
+---
+# Random rgb color for logo.
+rnd _cr 255
+rnd _cg 255
+rnd _cb 255
+
+case $DPP_FILE in *index.html)
+echo ".blob {display: none}"
+esac
+---
+
+  .blob { color: rgb($_cr,$_cg,$_cb); }
+
+  ${style:-}
+  </style>
+
+  <meta name=description content="$(fld "$META_DESC")">
+
+---
+case ${DPP_LANG:-"$DPP_LANG_DEF"} in "$DPP_LANG_DEF")
+  _r=${DPP_FILE%.html}
+  _r=${_r#index}
+  for f in $SITE_LANG; do
+    _p=${f#"$DPP_LANG_DEF"}
+    echo "<link rel=alternate hreflang=$f href=\"$SITE_URL/${_p:+"$f/"}$_r\"/>"
+  done
+esac
+---
+
+  <meta property="og:title" content="$SITE_TITLE${title:+ - $title}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="$SITE_URL">
+  <meta property="og:description" content="$(fld "$META_DESC")"/>
+  ${SITE_SOCIAL_IMAGE:+<meta property=\"og:image\" content=\"$SITE_URL/$SITE_SOCIAL_IMAGE\">}
+  ${SITE_SOCIAL_IMAGE_ALT:+<meta property=\"og:image:alt\" content=\"$SITE_SOCIAL_IMAGE_ALT\">}
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  ${SITE_SOCIAL_TWITTER:+<meta name=\"twitter:site\" content=\"@$SITE_SOCIAL_TWITTER\"/>}
+  <meta name="twitter:title" content="$SITE_TITLE${title:+ - $title}"/>
+  <meta name="twitter:description" content="$(fld "$META_DESC")"/>
+  ${SITE_SOCIAL_IMAGE:+<meta name="twitter:image" content=\"$SITE_URL/$SITE_SOCIAL_IMAGE\"/>}
+
+  ${SITE_FAVICON_ICO:+<link rel=\"alternate icon\" href=\"data:image/x-icon;base64,$(b64 < "$SITE_PUB_DIR/$SITE_FAVICON_ICO")\" sizes=any>}
+  ${SITE_FAVICON_SVG:+<link rel=icon href=\"data:image/svg+xml;base64,$(sed "s/currentColor/rgb($_cr,$_cg,$_cb)/" "$SITE_PUB_DIR/$SITE_FAVICON_SVG" | b64)\" type=\"image/svg+xml\">}
+  ${SITE_FAVICON_IOS:+<link rel=apple-touch-icon href=\"/$SITE_FAVICON_IOS\">}
+  <link rel="apple-touch-icon" href=/apple-touch-icon.png>
+
+  <link rel=alternate title=News type=application/rss+xml href=/feed.xml>
+</head>
+<body>
+<div id=disclaimer>$DISCLAIMER</div>

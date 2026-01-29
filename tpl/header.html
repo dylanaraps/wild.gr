@@ -1,0 +1,13 @@
+---# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+<header style="${bg:+background-color:$bg;color:#000}${style:-}">
+---
+bg=$bg no_wave= use nav
+---
+  <div class="con cpy">
+    ${suptitle:+<p>$suptitle</p>}
+    <h1>$title</h1>
+    ${subtitle:+<p>$subtitle</p>}
+  </div>
+
+  ${bg:+"$(flip=1 height=100px use wave)"}
+</header>

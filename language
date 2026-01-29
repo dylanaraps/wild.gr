@@ -1,0 +1,1490 @@
+#!/bin/sh -eu
+#
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+#
+# This file holds translations for all website text.
+#
+
+__L_en_DISCLAIMER=""
+
+__L_fr_DISCLAIMER="
+Avertissement : cette traduction est générée automatiquement et peut contenir 
+des erreurs. Veuillez nous informer si vous en constatez une afin qu’elle puisse 
+être corrigée.
+"
+
+__L_el_DISCLAIMER=""
+
+__L_de_DISCLAIMER="
+Hinweis: Diese Übersetzung wurde automatisch erstellt und kann Fehler enthalten. 
+Bitte informieren Sie uns, falls Sie einen entdecken, damit er korrigiert werden 
+kann.
+"
+
+__L_en_META_DESC="
+WILD is a natural farming estate located in Euboea, Greece producing a limited 
+quantity of Natural Amber Wine and Unfiltered Extra Virgin Olive Oil.
+"
+
+__L_fr_META_DESC="
+WILD est un domaine agricole naturel situé en Eubée, en Grèce, produisant une
+quantité limitée de vin ambré naturel et d’huile d’olive extra vierge non
+filtrée.
+"
+
+__L_el_META_DESC="
+Το WILD είναι ένα φυσικό αγρόκτημα στην Εύβοια, Ελλάδα, που παράγει
+περιορισμένη ποσότητα φυσικού κεχριμπαρένιου οίνου και αφιλτράριστου
+εξαιρετικού παρθένου ελαιολάδου.
+"
+
+__L_de_META_DESC="
+WILD ist ein natürlicher Landwirtschaftsbetrieb auf Euböa in Griechenland, der
+eine begrenzte Menge an natürlichem Amberwein und ungefiltertem nativem
+Olivenöl extra produziert.
+"
+
+__L_en_MINI_DESC="
+Natural farming estate in Euboea, Greece, making small batches of Natural 
+Amber Wine and Unfiltered Olive Oil.
+"
+
+__L_fr_MINI_DESC="
+Domaine agricole naturel en Eubée, Grèce, produisant de petites quantités de
+vin ambré naturel et d’huile d’olive non filtrée.
+"
+
+__L_el_MINI_DESC="
+Φυσικό αγρόκτημα στην Εύβοια, Ελλάδα, που παράγει μικρές ποσότητες φυσικού
+κεχριμπαρένιου οίνου και αφιλτράριστου ελαιολάδου.
+"
+
+__L_de_MINI_DESC="
+Natürlicher Landwirtschaftsbetrieb auf Euböa, Griechenland, der kleine Mengen
+an natürlichem Amberwein und ungefiltertem Olivenöl produziert.
+"
+
+__L_en_ELISSAVET="Elissavet Postekoglou"
+__L_fr_ELISSAVET="Elissavet Postekoglou"
+__L_el_ELISSAVET="Ελισσάβετ Ποστέκογλου"
+__L_de_ELISSAVET="Elissavet Postekoglou"
+
+__L_en_SOLE_TRADER="Sole Trader"
+__L_fr_SOLE_TRADER="Entrepreneur individuel"
+__L_el_SOLE_TRADER="Ατομική επιχείρηση"
+__L_de_SOLE_TRADER="Einzelunternehmer"
+
+__L_en_ADDRESS="Amphithea, Euboea, 34014, Greece"
+__L_fr_ADDRESS="Amfithea, Eubée, 34014, Grèce"
+__L_el_ADDRESS="Αμφιθέα, Εύβοια, 34014, Ελλάδα"
+__L_de_ADDRESS="Amfithea, Euböa, 34014, Griechenland"
+
+__L_en_HOME="Home"
+__L_fr_HOME="Accueil"
+__L_el_HOME="Αρχική"
+__L_de_HOME="Startseite"
+
+__L_en_HOME_DESC="NATURAL FARMING ESTATE"
+__L_fr_HOME_DESC="DOMAINE D’AGRICULTURE NATURELLE"
+__L_el_HOME_DESC="ΚΤΗΜΑ ΦΥΣΙΚΗΣ ΚΑΛΛΙΕΡΓΕΙΑΣ"
+__L_de_HOME_DESC="NATÜRLICHES LANDWIRTSCHAFTSGUT"
+
+__L_en_HOME_ISLAND="EUBOEA, GREECE"
+__L_fr_HOME_ISLAND="EUBÉE, GRÈCE"
+__L_el_HOME_ISLAND="ΕΥΒΟΙΑ, ΕΛΛΑΔΑ"
+__L_de_HOME_ISLAND="EUBÖA, GRIECHENLAND"
+
+__L_en_WELCOME="Welcome to WILD"
+__L_fr_WELCOME="Bienvenue à WILD"
+__L_el_WELCOME="Καλώς ήρθατε στο WILD"
+__L_de_WELCOME="Willkommen bei WILD"
+
+__L_en_MENU="Menu"
+__L_fr_MENU="Menu"
+__L_el_MENU="Μενού"
+__L_de_MENU="Menü"
+
+__L_en_WILD_ESTATE="WILD Estate"
+__L_fr_WILD_ESTATE="Domaine WILD"
+__L_el_WILD_ESTATE="Κτήμα WILD"
+__L_de_WILD_ESTATE="WILD Anwesen"
+
+__L_en_WILD_ESTATE_DESC="
+In the foothills of Mount Dyrfis on the Greek island of Euboea, the village of 
+Amphithea sits on a ridge at an altitude of 246 metres. Within our estate, olive 
+trees and grapevines coexist with fruit trees and native flora, forming a 
+diverse polycultural landscape.
+
+Management follows natural farming principles focused on regeneration and 
+long-term ecological balance. The soil is left untilled, and no pesticides, 
+herbicides, bactericides, fungicides or fertilizers are applied, natural or
+synthetic. Cultivation relies on natural rainfall rather than routine
+irrigation, allowing plants to adapt to local climatic conditions and long term
+changes in climate.
+
+The land is maintained as a self-regulating agricultural ecosystem, with 
+biodiversity and soil vitality as its primary sources of resilience.
+"
+
+__L_fr_WILD_ESTATE_DESC="
+Au pied du mont Dyrfis, sur l’île grecque d’Eubée, le village d’Amphithea est
+situé sur une crête à une altitude de 246 mètres. Au sein de notre domaine,
+oliviers et vignes cohabitent avec des arbres fruitiers et une flore indigène,
+formant un paysage polyculturel riche et diversifié.
+
+La gestion du domaine repose sur des principes d’agriculture naturelle, axés
+sur la régénération et l’équilibre écologique à long terme. Les sols ne sont
+pas travaillés et aucun pesticide, herbicide, bactéricides, fongicides ou
+engrais, qu’ils soient naturels ou synthétiques, n’est utilisé. La culture
+dépend des précipitations naturelles plutôt que d’une irrigation systématique,
+permettant aux plantes de s’adapter aux conditions climatiques locales ainsi
+qu’aux évolutions climatiques de long terme.
+
+Le domaine est entretenu comme un écosystème agricole auto-régulé, où la
+biodiversité et la vitalité des sols constituent les principales sources de
+résilience.
+"
+
+__L_el_WILD_ESTATE_DESC="
+Στους πρόποδες του όρους Δίρφυς, στο νησί της Εύβοιας, το χωριό Αμφιθέα είναι
+χτισμένο σε κορυφογραμμή με υψόμετρο 246 μέτρων. Εντός του κτήματός μας,
+ελαιόδεντρα και αμπέλια συνυπάρχουν με οπωροφόρα δέντρα και την εγχώρια
+χλωρίδα, συνθέτοντας ένα πολυδιάστατο και πολυκαλλιεργητικό τοπίο.
+
+Η διαχείριση ακολουθεί τις αρχές της φυσικής καλλιέργειας, με έμφαση στην
+αναγέννηση και στη μακροπρόθεσμη οικολογική ισορροπία. Το έδαφος παραμένει
+ακαλλιέργητο και δεν χρησιμοποιούνται φυτοφάρμακα, ζιζανιοκτόνα, βακτηριοκτόνα,
+μυκητοκτόνα, λιπάσματα, φυσικά ή συνθετικά. Η καλλιέργεια βασίζεται στη φυσική
+βροχόπτωση και όχι στη συστηματική άρδευση, επιτρέποντας στα φυτά να
+προσαρμόζονται στις τοπικές κλιματικές συνθήκες και στις μακροχρόνιες
+κλιματικές μεταβολές.
+
+Η γη διατηρείται ως ένα αυτορρυθμιζόμενο αγροτικό οικοσύστημα, όπου η
+βιοποικιλότητα και η ζωτικότητα του εδάφους αποτελούν τις βασικές πηγές
+ανθεκτικότητας.
+"
+
+__L_de_WILD_ESTATE_DESC="
+Am Fuße des Mount Dyrfis auf der griechischen Insel Euböa liegt das Dorf
+Amphithea auf einem Höhenrücken in 246 Metern Höhe. Innerhalb unseres Anwesens
+koexistieren Olivenbäume und Weinreben mit Obstbäumen und heimischer Flora und
+bilden eine vielfältige, polykulturelle Landschaft.
+
+Die Bewirtschaftung folgt den Prinzipien der natürlichen Landwirtschaft mit dem
+Fokus auf Regeneration und langfristiges ökologisches Gleichgewicht. Der Boden
+bleibt unbestellt, und es werden keinerlei Pestizide, Herbizide, Bakterizide,
+Fungizide oder Düngemittel eingesetzt, weder natürliche noch synthetische. Der
+Anbau stützt sich auf natürlichen Niederschlag statt auf routinemäßige
+Bewässerung, wodurch sich die Pflanzen an die lokalen klimatischen Bedingungen
+sowie an langfristige klimatische Veränderungen anpassen können.
+
+Das Land wird als sich selbst regulierendes landwirtschaftliches Ökosystem
+erhalten, wobei Biodiversität und Bodenlebendigkeit die zentralen Quellen
+seiner Widerstandsfähigkeit darstellen.
+"
+
+__L_en_IMAGE_ALT_WILD_ESTATE="Photo of Vineyard in early Summer with Mount Dyrfis olive trees in background"
+__L_fr_IMAGE_ALT_WILD_ESTATE="Photo d’un vignoble au début de l’été avec le mont Dirfys et des oliviers en arrière-plan"
+__L_el_IMAGE_ALT_WILD_ESTATE="Φωτογραφία αμπελώνα στις αρχές του καλοκαιριού με το όρος Δίρφυς και ελαιόδεντρα στο βάθος"
+__L_de_IMAGE_ALT_WILD_ESTATE="Foto eines Weinbergs im frühen Sommer mit dem Berg Dirfys und Olivenbäumen im Hintergrund"
+
+__L_en_IMAGE_ALT_WILD_PRODUCTS_OLIVE="Up close photo of freshly harvested olives"
+__L_fr_IMAGE_ALT_WILD_PRODUCTS_OLIVE="Photo en gros plan d’olives fraîchement récoltées"
+__L_el_IMAGE_ALT_WILD_PRODUCTS_OLIVE="Κοντινή φωτογραφία φρεσκοσυλλεγμένων ελιών"
+__L_de_IMAGE_ALT_WILD_PRODUCTS_OLIVE="Nahaufnahme von frisch geernteten Oliven"
+
+__L_en_IMAGE_ALT_WILD_PRODUCTS_GRAPE="Up close photo of freshly harvested grapes"
+__L_fr_IMAGE_ALT_WILD_PRODUCTS_GRAPE="Photo en gros plan de raisins fraîchement récoltés"
+__L_el_IMAGE_ALT_WILD_PRODUCTS_GRAPE="Κοντινή φωτογραφία φρεσκοσυλλεγμένων σταφυλιών"
+__L_de_IMAGE_ALT_WILD_PRODUCTS_GRAPE="Nahaufnahme von frisch geernteten Trauben"
+
+__L_en_IMAGE_ALT_WILD_PEOPLE="Photo of Dylan Araps walking in olive grove"
+__L_fr_IMAGE_ALT_WILD_PEOPLE="Photo de Dylan Araps marchant dans une oliveraie"
+__L_el_IMAGE_ALT_WILD_PEOPLE="Φωτογραφία του Dylan Araps να περπατά σε ελαιώνα"
+__L_de_IMAGE_ALT_WILD_PEOPLE="Foto von Dylan Araps beim Gehen durch einen Olivenhain"
+
+__L_en_IMAGE_ALT_ABOUT="Dylan Araps in vineyard holding puppy"
+__L_fr_IMAGE_ALT_ABOUT="Dylan Araps dans un vignoble tenant un chiot"
+__L_el_IMAGE_ALT_ABOUT="Ο Dylan Araps σε αμπελώνα κρατώντας ένα κουτάβι"
+__L_de_IMAGE_ALT_ABOUT="Dylan Araps in einem Weinberg mit einem Welpen im Arm"
+
+__L_en_IMAGE_ALT_VOLUNTEER="Photo of 94 year old Yiayia collecting olives"
+__L_fr_IMAGE_ALT_VOLUNTEER="Photo d’une Yiayia de 94 ans récoltant des olives"
+__L_el_IMAGE_ALT_VOLUNTEER="Φωτογραφία 94χρονης γιαγιάς να μαζεύει ελιές"
+__L_de_IMAGE_ALT_VOLUNTEER="Foto einer 94-jährigen Yiayia beim Olivensammeln"
+
+__L_en_IMAGE_ALT_CONTACT="Photo of olive grove in early Summer"
+__L_fr_IMAGE_ALT_CONTACT="Photo d’une oliveraie au début de l’été"
+__L_el_IMAGE_ALT_CONTACT="Φωτογραφία ελαιώνα στις αρχές του καλοκαιριού"
+__L_de_IMAGE_ALT_CONTACT="Foto eines Olivenhains im frühen Sommer"
+
+__L_en_WILD_PRODUCTS="WILD Products"
+__L_fr_WILD_PRODUCTS="Produits WILD"
+__L_el_WILD_PRODUCTS="Προϊόντα WILD"
+__L_de_WILD_PRODUCTS="WILD Produkte"
+
+__L_en_FUTURE_PRODUCTS="In Development"
+__L_fr_FUTURE_PRODUCTS="En Développement"
+__L_el_FUTURE_PRODUCTS="Υπό Ανάπτυξη"
+__L_de_FUTURE_PRODUCTS="In Entwicklung"
+
+__L_en_AMBER_VINEGAR="Amber Wine Vinegar"
+__L_fr_AMBER_VINEGAR="Vinaigre De Vin Ambré"
+__L_el_AMBER_VINEGAR="Ξύδι Κεχριμπαρένιου Κρασιού"
+__L_de_AMBER_VINEGAR="Orangenweinessig"
+
+__L_en_AMBER_VINEGAR_LONG="Natural Amber Wine Vinegar"
+__L_fr_AMBER_VINEGAR_LONG="Vinaigre De Vin Ambré Naturel"
+__L_el_AMBER_VINEGAR_LONG="Ξύδι Φυσικού Κεχριμπαρένιου Κρασιού"
+__L_de_AMBER_VINEGAR_LONG="Natürlicher Orangeweinessig"
+
+__L_en_OLIVE_SOAP="Olive Soap"
+__L_fr_OLIVE_SOAP="Savon à l’huile d’olive"
+__L_el_OLIVE_SOAP="Σαπούνι Ελαιολάδου"
+__L_de_OLIVE_SOAP="Olivenseife"
+
+__L_en_RECIPE_BOOK="Recipe Book"
+__L_fr_RECIPE_BOOK="Livre de recettes"
+__L_el_RECIPE_BOOK="Βιβλίο Συνταγών"
+__L_de_RECIPE_BOOK="Rezeptbuch"
+
+__L_en_WILD_OLIVE_OIL="Wild Olive Oil"
+__L_fr_WILD_OLIVE_OIL="Huile d’olive sauvage"
+__L_el_WILD_OLIVE_OIL="Άγριο Ελαιόλαδο"
+__L_de_WILD_OLIVE_OIL="Wildes Olivenöl"
+
+__L_en_SUNDRIED_FIGS="Sundried Figs"
+__L_fr_SUNDRIED_FIGS="Figues séchées au soleil"
+__L_el_SUNDRIED_FIGS="Λιαστά Σύκα"
+__L_de_SUNDRIED_FIGS="Sonngetrocknete Feigen"
+
+__L_en_LIFE_BOOK="Life Book"
+__L_fr_LIFE_BOOK="Livre de vie"
+__L_el_LIFE_BOOK="Βιβλίο Ζωής"
+__L_de_LIFE_BOOK="Lebensbuch"
+
+__L_en_COMB_HONEY="Comb Honey"
+__L_fr_COMB_HONEY="Miel en rayon"
+__L_el_COMB_HONEY="Μέλι Κηρήθρας"
+__L_de_COMB_HONEY="Wabenhonig"
+
+__L_en_WILD_PRODUCTS_DESC="
+All production takes place without additives or artificial substances and the 
+deliberate avoidance of plastic materials. 
+
+Grapes are harvested by hand, crushed barefoot, and spontaneously fermented with 
+indigenous yeasts. The wine is unfiltered, unfined and produced without added 
+sulphites or other oenological additives. 
+
+Olives are individually hand-picked and cold pressed on the estate within hours 
+of harvest. The olive oil is unfiltered and bottled without further 
+interference.
+
+Each product is made with care and in very limited quantities in order to 
+preserve its raw and living character.
+"
+
+__L_fr_WILD_PRODUCTS_DESC="
+Toute la production est réalisée sans additifs ni substances artificielles,
+avec un évitement délibéré des matériaux plastiques.
+
+Les raisins sont récoltés à la main, foulés aux pieds et fermentés spontanément
+grâce aux levures indigènes. Le vin n’est ni filtré ni collé et est élaboré
+sans ajout de sulfites ni d’autres intrants œnologiques.
+
+Les olives sont cueillies individuellement à la main et pressées à froid sur le
+domaine dans les heures suivant la récolte. L’huile d’olive est non filtrée et
+mise en bouteille sans intervention supplémentaire.
+
+Chaque produit est élaboré avec soin et en quantités très limitées afin de
+préserver son caractère brut et vivant.
+"
+
+__L_el_WILD_PRODUCTS_DESC="
+Όλη η παραγωγή πραγματοποιείται χωρίς πρόσθετα ή τεχνητές ουσίες, με συνειδητή
+αποφυγή πλαστικών υλικών.
+
+Τα σταφύλια τρυγούνται με το χέρι, πατιούνται ξυπόλητα και ζυμώνονται αυθόρμητα
+με γηγενείς ζύμες. Το κρασί είναι αφιλτράριστο, αφινάριστο και παράγεται χωρίς
+προσθήκη θειωδών ή άλλων οινολογικών προσθέτων.
+
+Οι ελιές συλλέγονται μία προς μία με το χέρι και πιέζονται εν ψυχρώ στο κτήμα
+μέσα σε λίγες ώρες από τη συγκομιδή. Το ελαιόλαδο είναι αφιλτράριστο και
+εμφιαλώνεται χωρίς περαιτέρω παρέμβαση.
+"
+
+__L_de_WILD_PRODUCTS_DESC="
+Die gesamte Produktion erfolgt ohne Zusatzstoffe oder künstliche Substanzen
+sowie unter bewusster Vermeidung von Kunststoffmaterialien.
+
+Die Trauben werden von Hand gelesen, barfuß eingemaischt und spontan mit
+autochthonen Hefen vergoren. Der Wein ist unfiltriert, ungeschönt und wird ohne
+zugesetzte Sulfite oder andere önologische Hilfsmittel hergestellt.
+
+Die Oliven werden einzeln von Hand geerntet und innerhalb weniger Stunden nach
+der Lese direkt auf dem Anwesen kalt gepresst. Das Olivenöl ist unfiltriert und
+wird ohne weitere Eingriffe abgefüllt.
+
+Jedes Produkt entsteht mit größter Sorgfalt und in sehr begrenzten Mengen, um
+seinen ursprünglichen und lebendigen Charakter zu bewahren.
+"
+
+__L_en_WILD_PEOPLE="WILD People"
+__L_fr_WILD_PEOPLE="Les personnes de WILD"
+__L_el_WILD_PEOPLE="Οι άνθρωποι του WILD"
+__L_de_WILD_PEOPLE="Die Menschen von WILD"
+
+__L_en_WILD_PEOPLE_DESC="
+Our farming and production practices arise from our faith in God and the way we 
+choose to live. We see ourselves as stewards of the natural world and accept the 
+responsibility to act without harm.
+
+Three generations of our family live and work side by side. Our days are shaped 
+by a seasonal plant-based diet, pure spring water, long hours under the sun, 
+and direct contact with the soil. A life guided by restraint, discipline, and 
+serenity.
+
+WILD is the natural expression of this philosophy. It exists because it must. 
+To act otherwise would be to live in contradiction to what we believe.
+"
+
+__L_fr_WILD_PEOPLE_DESC="
+Nos pratiques agricoles et de production découlent de notre foi en Dieu et du
+mode de vie que nous avons choisi. Nous nous considérons comme les intendants
+du monde naturel et acceptons la responsabilité d’agir sans nuire.
+
+Trois générations de notre famille vivent et travaillent côte à côte. Nos
+journées sont rythmées par une alimentation saisonnière à base de plantes, une
+eau de source pure, de longues heures passées sous le soleil et un contact
+direct avec la terre. Une vie guidée par la retenue, la discipline et la
+sérénité.
+
+WILD est l’expression naturelle de cette philosophie. Elle existe parce qu’elle
+le doit. Agir autrement reviendrait à vivre en contradiction avec ce en quoi
+nous croyons.
+"
+
+__L_el_WILD_PEOPLE_DESC="
+Οι γεωργικές και παραγωγικές μας πρακτικές απορρέουν από την πίστη μας στον Θεό
+και από τον τρόπο ζωής που έχουμε επιλέξει. Αντιλαμβανόμαστε τον εαυτό μας ως
+θεματοφύλακες του φυσικού κόσμου και αποδεχόμαστε την ευθύνη να ενεργούμε χωρίς
+να βλάπτουμε.
+
+Τρεις γενιές της οικογένειάς μας ζουν και εργάζονται δίπλα δίπλα. Η
+καθημερινότητά μας διαμορφώνεται από μια εποχική, φυτικής βάσης διατροφή,
+καθαρό νερό πηγής, πολλές ώρες κάτω από τον ήλιο και άμεση επαφή με το έδαφος.
+Μια ζωή καθοδηγούμενη από εγκράτεια, πειθαρχία και γαλήνη.
+
+Το WILD αποτελεί τη φυσική έκφραση αυτής της φιλοσοφίας. Υπάρχει επειδή έτσι
+πρέπει. Το να πράτταμε διαφορετικά θα σήμαινε ότι θα ζούσαμε σε αντίφαση με όσα
+πιστεύουμε.
+"
+
+__L_de_WILD_PEOPLE_DESC="
+Unsere landwirtschaftlichen und handwerklichen Praktiken entspringen unserem
+Glauben an Gott und der Art und Weise, wie wir unser Leben führen. Wir
+verstehen uns als Hüter der natürlichen Welt und übernehmen die Verantwortung,
+ohne Schaden zu handeln.
+
+Drei Generationen unserer Familie leben und arbeiten Seite an Seite. Unsere
+Tage sind geprägt von einer saisonalen, pflanzenbasierten Ernährung, reinem
+Quellwasser, langen Stunden unter der Sonne und direktem Kontakt mit dem Boden.
+Ein Leben, geleitet von Maß, Disziplin und Gelassenheit.
+
+WILD ist der natürliche Ausdruck dieser Philosophie. Es existiert, weil es
+existieren muss. Anders zu handeln hieße, im Widerspruch zu dem zu leben, woran
+wir glauben.
+"
+
+__L_en_ABOUT="About"
+__L_fr_ABOUT="À propos"
+__L_el_ABOUT="Σχετικά με εμάς"
+__L_de_ABOUT="Über uns"
+
+__L_en_ABOUT_DESC="
+I am Dylan Araps, a 28-year-old former software engineer known for my open
+source work and emphasis on simple, maintainable software.
+
+Several years ago, my family and I left Australia to resettle in our ancestral 
+homeland of Greece. We later acquired a long-neglected agricultural estate in
+the sleepy village of Amphithea on the island of Euboea.
+
+This estate became the foundation of WILD, a family-run agricultural venture
+focused on land regeneration and the creation of living products.
+"
+
+__L_fr_ABOUT_DESC="
+Je m’appelle Dylan Araps, j’ai 28 ans et je suis un ancien ingénieur logiciel,
+connu pour mon travail open source et pour mon attachement à des logiciels
+simples et faciles à maintenir.
+
+Il y a plusieurs années, ma famille et moi avons quitté l’Australie pour nous
+réinstaller en Grèce, notre terre ancestrale. Nous avons ensuite acquis un
+domaine agricole longtemps négligé dans le village paisible d’Amphithea, sur
+l’île d’Eubée.
+
+Ce domaine est devenu le fondement de WILD, une entreprise agricole familiale
+dédiée à la régénération des terres et à la création de produits vivants.
+"
+
+__L_el_ABOUT_DESC="
+Ονομάζομαι Dylan Araps, είμαι 28 ετών και πρώην μηχανικός λογισμικού, γνωστός
+για το έργο μου στο ανοιχτό λογισμικό και την έμφαση που δίνω σε απλό, εύκολα
+συντηρήσιμο λογισμικό.
+
+Πριν από αρκετά χρόνια, η οικογένειά μου κι εγώ φύγαμε από την Αυστραλία και 
+εγκατασταθήκαμε εκ νέου στην πατρογονική μας γη, την Ελλάδα. Αργότερα αποκτήσαμε 
+ένα αγροτικό κτήμα, το οποίο παρέμενε για μεγάλο χρονικό διάστημα παραμελημένο, 
+στο ήσυχο χωριό Αμφιθέα στο νησί της Εύβοιας.
+
+Το κτήμα αυτό αποτέλεσε το θεμέλιο του WILD, μιας οικογενειακής αγροτικής 
+πρωτοβουλίας με επίκεντρο την αναγέννηση της γης και τη δημιουργία ζωντανών 
+προϊόντων.
+"
+
+__L_de_ABOUT_DESC="
+Ich heiße Dylan Araps, bin 28 Jahre alt und ein ehemaliger Softwareingenieur,
+bekannt für meine Open-Source-Arbeit und meinen Fokus auf einfache, wartbare
+Software.
+
+Vor einigen Jahren haben meine Familie und ich Australien verlassen, um uns in
+unserer angestammten Heimat Griechenland neu niederzulassen. Später erwarben
+wir ein lange vernachlässigtes landwirtschaftliches Anwesen im ruhigen Dorf
+Amphithea auf der Insel Euböa.
+
+Dieses Anwesen wurde zur Grundlage von WILD, einem familiengeführten
+landwirtschaftlichen Projekt mit dem Schwerpunkt auf Landregeneration und der
+Herstellung lebendiger Produkte.
+"
+
+__L_en_VOLUNTEER="Volunteer"
+__L_fr_VOLUNTEER="Bénévolat"
+__L_el_VOLUNTEER="Εθελοντισμός"
+__L_de_VOLUNTEER="Ehrenamt"
+
+__L_en_VOLUNTEER_DESC="
+If you are interested in our work, we welcome volunteers to join us on the 
+estate. There are no productivity requirements. Room and board are also provided 
+at no cost. 
+
+Volunteers have the opportunity to learn about natural farming practices, 
+natural winemaking, olive oil production, traditional Greek plant-based cooking, 
+and whatever seasonal projects are underway at the time. 
+
+If this resonates with you, contact us at
+"
+
+__L_fr_VOLUNTEER_DESC="
+Si notre travail vous intéresse, nous accueillons volontiers des bénévoles au
+sein du domaine. Aucune exigence de productivité n’est imposée. Le logement et
+les repas sont également fournis sans frais.
+
+Les bénévoles ont l’opportunité de découvrir les pratiques de l’agriculture
+naturelle, la vinification naturelle, la production d’huile d’olive, la cuisine
+grecque traditionnelle à base de plantes, ainsi que les projets saisonniers en
+cours au moment de leur séjour.
+
+Si cela vous parle, contactez-nous à 
+"
+
+__L_el_VOLUNTEER_DESC="
+Αν ενδιαφέρεστε για το έργο μας, καλωσορίζουμε εθελοντές να συμμετέχουν στη
+ζωή και την εργασία στο κτήμα. Δεν υπάρχουν απαιτήσεις παραγωγικότητας.
+Παρέχονται επίσης διαμονή και διατροφή χωρίς κόστος.
+
+Οι εθελοντές έχουν την ευκαιρία να γνωρίσουν πρακτικές φυσικής καλλιέργειας,
+φυσική οινοποίηση, παραγωγή ελαιολάδου, παραδοσιακή ελληνική φυτικής βάσης
+κουζίνα, καθώς και όποια εποχικά έργα βρίσκονται σε εξέλιξη τη συγκεκριμένη
+περίοδο.
+
+Αν αυτό σας εκφράζει, επικοινωνήστε μαζί μας στο
+"
+
+__L_de_VOLUNTEER_DESC="
+Wenn Sie an unserer Arbeit interessiert sind, heißen wir Freiwillige auf
+unserem Anwesen willkommen. Es gibt keine Leistungs- oder
+Produktivitätsanforderungen. Unterkunft und Verpflegung werden kostenfrei
+gestellt.
+
+Freiwillige haben die Möglichkeit, natürliche Landwirtschaftspraktiken,
+natürliche Weinbereitung, Olivenölherstellung, traditionelle griechische
+pflanzenbasierte Küche sowie die jeweils anstehenden saisonalen Projekte
+kennenzulernen.
+
+Wenn Sie sich davon angesprochen fühlen, kontaktieren Sie uns unter
+"
+
+__L_en_NEWS="News"
+__L_fr_NEWS="Actualités"
+__L_el_NEWS="Νέα"
+__L_de_NEWS="Neuigkeiten"
+
+__L_en_NEWS_BLANK="
+This page will share official announcements, product updates, and relevant 
+information. Please check back soon.
+"
+
+__L_fr_NEWS_BLANK="
+Cette page partagera des annonces officielles, des mises à jour de produits et
+des informations pertinentes. Merci de revenir prochainement.
+"
+
+__L_el_NEWS_BLANK="
+Η σελίδα αυτή θα παρουσιάζει επίσημες ανακοινώσεις, ενημερώσεις προϊόντων και
+σχετικές πληροφορίες. Παρακαλούμε επισκεφθείτε ξανά σύντομα.
+"
+
+__L_de_NEWS_BLANK="
+Diese Seite wird offizielle Ankündigungen, Produktaktualisierungen und
+relevante Informationen enthalten. Bitte schauen Sie bald wieder vorbei.
+"
+
+__L_en_PRODUCTS="Products"
+__L_fr_PRODUCTS="Produits"
+__L_el_PRODUCTS="Προϊόντα"
+__L_de_PRODUCTS="Produkte"
+
+__L_en_GALLERY="Gallery"
+__L_fr_GALLERY="Galerie"
+__L_el_GALLERY="Γκαλερί"
+__L_de_GALLERY="Galerie"
+
+__L_en_TECHNICAL="Technical"
+__L_fr_TECHNICAL="Caractéristiques Techniques"
+__L_el_TECHNICAL="Τεχνικά Στοιχεία"
+__L_de_TECHNICAL="Technische Daten"
+
+__L_en_ELABEL="E-label"
+__L_fr_ELABEL="Étiquette électronique"
+__L_el_ELABEL="Ηλεκτρονική ετικέτα"
+__L_de_ELABEL="Elektronisches Etikett"
+
+__L_en_L="L"
+__L_fr_L="L"
+__L_el_L="L"
+__L_de_L="l"
+
+__L_en_ML="mL"
+__L_fr_ML="ml"
+__L_el_ML="ml"
+__L_de_ML="ml"
+
+__L_en_GR="g"
+__L_fr_GR="g"
+__L_el_GR="g"
+__L_de_GR="g"
+
+__L_en_MG="mg"
+__L_fr_MG="mg"
+__L_el_MG="mg"
+__L_de_MG="mg"
+
+__L_en_NUM_SEP="."
+__L_fr_NUM_SEP=","
+__L_el_NUM_SEP=","
+__L_de_NUM_SEP=","
+
+__L_en_PERC="%"
+__L_fr_PERC=" %"
+__L_el_PERC="%"
+__L_de_PERC=" %"
+
+__L_en_NONE="None"
+__L_fr_NONE="Aucun"
+__L_el_NONE="Κανένα"
+__L_de_NONE="Keine"
+
+__L_en_EXTRA_VIRGIN="Extra Virgin"
+__L_fr_EXTRA_VIRGIN="Extra vierge"
+__L_el_EXTRA_VIRGIN="Τύπος"
+__L_de_EXTRA_VIRGIN="Typ"
+
+__L_en_EXTRA_VIRGIN_YES="Yes"
+__L_fr_EXTRA_VIRGIN_YES="Oui"
+__L_el_EXTRA_VIRGIN_YES="Εξαιρετικό παρθένο ελαιόλαδο"
+__L_de_EXTRA_VIRGIN_YES="Natives Olivenöl extra"
+
+__L_en_VEGAN="Vegan"
+__L_fr_VEGAN="Végane"
+__L_el_VEGAN="Vegan"
+__L_de_VEGAN="Vegan"
+
+__L_en_VEGAN_YES="Yes"
+__L_fr_VEGAN_YES="Oui"
+__L_el_VEGAN_YES="Κατάλληλο για vegan"
+__L_de_VEGAN_YES="Ja"
+
+__L_en_GLUTEN_FREE="Gluten Free"
+__L_fr_GLUTEN_FREE="Sans gluten"
+__L_el_GLUTEN_FREE="Χωρίς γλουτένη"
+__L_de_GLUTEN_FREE="Glutenfrei"
+
+__L_en_GLUTEN_FREE_YES="Yes"
+__L_fr_GLUTEN_FREE_YES="Oui"
+__L_el_GLUTEN_FREE_YES="Χωρίς γλουτένη"
+__L_de_GLUTEN_FREE_YES="Glutenfrei"
+
+__L_en_ABV="ABV"
+__L_fr_ABV="Titre alcoométrique volumique"
+__L_el_ABV="Αλκοολικός βαθμός"
+__L_de_ABV="Alkoholgehalt"
+
+__L_en_DRYNESS="Dryness"
+__L_fr_DRYNESS="Sécheresse"
+__L_el_DRYNESS="Ξηρότητα"
+__L_de_DRYNESS="Geschmack"
+
+__L_en_DRY="Dry"
+__L_fr_DRY="Sec"
+__L_el_DRY="Ξηρό"
+__L_de_DRY="Trocken"
+
+__L_en_RESIDUAL_SUGAR="residual sugar"
+__L_fr_RESIDUAL_SUGAR="de sucres résiduels"
+__L_el_RESIDUAL_SUGAR="υπολειμματικά σάκχαρα"
+__L_de_RESIDUAL_SUGAR="Restzucker"
+
+__L_en_FILTRATION="Filtration"
+__L_fr_FILTRATION="Filtration"
+__L_el_FILTRATION="Φιλτράρισμα"
+__L_de_FILTRATION="Filtration"
+
+__L_en_FINING="Fining"
+__L_fr_FINING="Collage"
+__L_el_FINING="Φινίρισμα"
+__L_de_FINING="Schönung"
+
+__L_en_UNFINED="Unfined"
+__L_fr_UNFINED="Non"
+__L_el_UNFINED="Αφινάριστο"
+__L_de_UNFINED="Ungeschönt"
+
+__L_en_UNFILTERED="Unfiltered"
+__L_fr_UNFILTERED="Non filtrée"
+__L_el_UNFILTERED="Αφιλτράριστο"
+__L_de_UNFILTERED="Ungefiltert"
+
+__L_en_FERMENTATION="Fermentation"
+__L_fr_FERMENTATION="Fermentation"
+__L_el_FERMENTATION="Ζύμωση"
+__L_de_FERMENTATION="Gärung"
+
+__L_en_WILD_FERMENTATION="Indigenous yeast"
+__L_fr_WILD_FERMENTATION="Levures indigènes"
+__L_el_WILD_FERMENTATION="Αυτόχθονες ζύμες"
+__L_de_WILD_FERMENTATION="Spontangärung"
+
+__L_en_STABLIZATION="Stablization"
+__L_fr_STABLIZATION="Stabilisation"
+__L_el_STABLIZATION="Σταθεροποίηση"
+__L_de_STABLIZATION="Stabilisierung"
+
+__L_en_UNSTABLIZED="Unstablized"
+__L_fr_UNSTABLIZED="Non"
+__L_el_UNSTABLIZED="Χωρίς σταθεροποίηση"
+__L_de_UNSTABLIZED="Nicht stabilisiert"
+
+__L_en_SULPHITES="Sulphites"
+__L_fr_SULPHITES="Sulfites"
+__L_el_SULPHITES="Θειώδη"
+__L_de_SULPHITES="Sulfite"
+
+__L_en_ONLY_NATURALLY_OCCURRING="Only naturally occurring"
+__L_fr_ONLY_NATURALLY_OCCURRING="
+Sans sulfites ajoutés (contient des sulfites naturellement présents)
+"
+__L_el_ONLY_NATURALLY_OCCURRING="Περιέχει μόνο φυσικώς παραγόμενα θειώδη"
+__L_de_ONLY_NATURALLY_OCCURRING="Keine zugesetzten Sulfite"
+
+__L_en_ACIDITY="Acidity"
+__L_fr_ACIDITY="Acidité"
+__L_el_ACIDITY="Οξύτητα"
+__L_de_ACIDITY="Säuregehalt"
+
+__L_en_ACETIFICATION="Acetification"
+__L_fr_ACETIFICATION="Acétification"
+__L_el_ACETIFICATION="Οξική ζύμωση"
+__L_de_ACETIFICATION="Essigsäuregärung"
+
+__L_en_PASTEURIZATION="Pasteurization"
+__L_fr_PASTEURIZATION="Pasteurisation"
+__L_el_PASTEURIZATION="Παστερίωση"
+__L_de_PASTEURIZATION="Pasteurisierung"
+
+__L_en_UNPASTEURIZED="Unpasteurized"
+__L_fr_UNPASTEURIZED="Non pasteurisé"
+__L_el_UNPASTEURIZED="Μη παστεριωμένο"
+__L_de_UNPASTEURIZED="Unpasteurisiert"
+
+__L_en_VINEGAR_MOTHER="Mother of Vinegar"
+__L_fr_VINEGAR_MOTHER="Mère de vinaigre"
+__L_el_VINEGAR_MOTHER="Μητέρα του ξυδιού"
+__L_de_VINEGAR_MOTHER="Essigmutter"
+
+__L_en_PRESENT="Present"
+__L_fr_PRESENT="Présent"
+__L_el_PRESENT="Παρόν"
+__L_de_PRESENT="Vorhanden"
+
+__L_en_POLYPHENOLS="Polyphenols"
+__L_fr_POLYPHENOLS="Polyphénols"
+__L_el_POLYPHENOLS="Πολυφαινόλες"
+__L_de_POLYPHENOLS="Polyphenolgehalt"
+
+__L_en_CLOSURE="Closure"
+__L_fr_CLOSURE="Bouchage"
+__L_el_CLOSURE="Πώμα"
+__L_de_CLOSURE="Verschluss"
+
+__L_en_CLOSURE_TYPE="One-piece natural cork"
+__L_fr_CLOSURE_TYPE="Bouchon naturel monobloc"
+__L_el_CLOSURE_TYPE="Φυσικός μονοκόμματος φελλός"
+__L_de_CLOSURE_TYPE="Naturkorken (einteilig)"
+
+__L_en_BOTTLE="Bottle"
+__L_fr_BOTTLE="Bouteille"
+__L_el_BOTTLE="Φιάλη"
+__L_de_BOTTLE="Flasche"
+
+__L_en_BOTTLE_TYPE="UV-protective glass"
+__L_fr_BOTTLE_TYPE="Bouteille en verre avec protection UV"
+__L_el_BOTTLE_TYPE="Γυάλινη φιάλη με προστασία από UV"
+__L_de_BOTTLE_TYPE="UV-schützende Glasflasche"
+
+__L_en_CAPACITY="Capacity"
+__L_fr_CAPACITY="Contenance"
+__L_el_CAPACITY="Χωρητικότητα"
+__L_de_CAPACITY="Inhalt"
+
+__L_en_PRODUCTION_YEAR="Production Year"
+__L_fr_PRODUCTION_YEAR="Millésime"
+__L_el_PRODUCTION_YEAR="Έτος παραγωγής"
+__L_de_PRODUCTION_YEAR="Produktionsjahr"
+
+__L_en_HARVEST_YEAR="Harvest Year"
+__L_fr_HARVEST_YEAR="Année de récolte"
+__L_el_HARVEST_YEAR="Έτος συγκομιδής"
+__L_de_HARVEST_YEAR="Erntejahr"
+
+__L_en_ANALYSIS="Analysis"
+__L_fr_ANALYSIS="Analyse"
+__L_el_ANALYSIS="Ανάλυση"
+__L_de_ANALYSIS="Analyse"
+
+__L_en_CHEMICAL_ANALYSIS="Chemical Analysis"
+__L_fr_CHEMICAL_ANALYSIS="Analyse chimique"
+__L_el_CHEMICAL_ANALYSIS="Χημική ανάλυση"
+__L_de_CHEMICAL_ANALYSIS="Chemische Analyse"
+
+__L_en_PESTICIDE_TEST="Pesticide/Herbicide Test"
+__L_fr_PESTICIDE_TEST="Test pesticides/herbicides"
+__L_el_PESTICIDE_TEST="Έλεγχος φυτοφαρμάκων/ζιζανιοκτόνων"
+__L_de_PESTICIDE_TEST="Pestizid-/Herbizidtest"
+
+__L_en_OLIVE_OIL="Olive Oil"
+__L_fr_OLIVE_OIL="Huile d’Olive"
+__L_el_OLIVE_OIL="Ελαιόλαδο"
+__L_de_OLIVE_OIL="Olivenöl"
+
+__L_en_OLIVE_OIL_LONG="Unfiltered Extra Virgin Olive Oil"
+__L_fr_OLIVE_OIL_LONG="Huile D’Olive Extra Vierge Non Filtrée"
+__L_el_OLIVE_OIL_LONG="Αφιλτράριστο Εξαιρετικό Παρθένο Ελαιόλαδο"
+__L_de_OLIVE_OIL_LONG="Ungefiltertes Natives Olivenöl Extra"
+
+__L_en_OLIVE_OIL_DESC="
+Unfiltered Extra Virgin Olive Oil, from a blend of old Greek olive varieties and
+individually hand picked from our unirrigated olive groves. Extracted on site
+within hours in our own mill.
+
+Left deliberately unfiltered and accepting natural instability and a shorter 
+shelf life, the oil retains microscopic remnants of olive skin, pulp, pit, and 
+flesh, along with microdroplets of natural olive water. These droplets contain 
+trace amounts of phenolic compounds, sugars, organic acids, yeasts, proteins, 
+enzymes, pectins, and other naturally occurring constituents present at the time 
+of pressing.
+
+A maximum of 1500 bottles are produced annually, each hand numbered and signed.
+"
+
+__L_fr_OLIVE_OIL_DESC="
+Huile d’Olive Extra Vierge Non Filtrée, issue d’un assemblage d’anciennes
+variétés grecques et récoltée olive par olive à la main dans nos oliveraies non
+irriguées. Extraite sur place, dans notre propre moulin, quelques heures
+seulement après la récolte.
+
+Délibérément laissée non filtrée et assumant une instabilité naturelle ainsi
+qu’une durée de conservation plus courte, cette huile conserve des résidus
+microscopiques de peau, de pulpe, de noyau et de chair d’olive, ainsi que des
+microgouttelettes d’eau végétale naturelle. Ces gouttelettes contiennent des
+traces de composés phénoliques, de sucres, d’acides organiques, de levures, de
+protéines, d’enzymes, de pectines et d’autres constituants naturellement
+présents au moment de l’extraction.
+
+Un maximum de 1 500 bouteilles est produit chaque année, chacune numérotée et
+signée à la main.
+"
+
+__L_el_OLIVE_OIL_DESC="
+Αφιλτράριστο Εξαιρετικό Παρθένο Ελαιόλαδο, από μείγμα παλαιών ελληνικών
+ποικιλιών ελιάς, με ελιές που συλλέγονται μία προς μία με το χέρι από τους μη
+αρδευόμενους ελαιώνες μας. Η έκθλιψη πραγματοποιείται επιτόπου, μέσα σε λίγες
+ώρες, στο δικό μας ελαιοτριβείο.
+
+Παραμένοντας σκόπιμα αφιλτράριστο και αποδεχόμενο τη φυσική αστάθεια και τη
+μικρότερη διάρκεια ζωής του, το ελαιόλαδο διατηρεί μικροσκοπικά υπολείμματα από
+τη φλούδα, τη σάρκα και το κουκούτσι της ελιάς, καθώς και μικροσταγονίδια
+φυσικού ελαιόνερου. Τα σταγονίδια αυτά περιέχουν ίχνη φαινολικών ενώσεων,
+σακχάρων, οργανικών οξέων, ζυμών, πρωτεϊνών, ενζύμων, πηκτινών και άλλων
+φυσικών συστατικών που υπάρχουν τη στιγμή της έκθλιψης.
+
+Παράγονται κατ’ ανώτατο όριο 1.500 φιάλες ετησίως, καθεμία αριθμημένη και
+υπογεγραμμένη στο χέρι.
+"
+
+__L_de_OLIVE_OIL_DESC="
+Unfiltriertes Natives Olivenöl Extra aus einer Mischung alter griechischer
+Olivensorten, einzeln von Hand geerntet aus unseren nicht bewässerten
+Olivenhainen. Innerhalb weniger Stunden nach der Ernte in unserer eigenen Mühle
+vor Ort gewonnen.
+
+Bewusst unfiltriert belassen und unter Inkaufnahme natürlicher Instabilität
+sowie einer kürzeren Haltbarkeit bewahrt das Öl mikroskopische Rückstände von
+Olivenschale, Fruchtfleisch, Kern und Gewebe sowie Mikrotröpfchen natürlichen
+Olivenwassers. Diese Tröpfchen enthalten Spuren phenolischer Verbindungen,
+Zucker, organischer Säuren, Hefen, Proteine, Enzyme, Pektine und weiterer
+natürlicher Bestandteile, die zum Zeitpunkt der Pressung vorhanden sind.
+
+Jährlich werden maximal 1500 Flaschen produziert, jede einzelne von Hand
+nummeriert und signiert.
+"
+
+__L_en_AMBER_WINE="Amber Wine"
+__L_fr_AMBER_WINE="Vin Ambré"
+__L_el_AMBER_WINE="Κεχριμπαρένιο Κρασί"
+__L_de_AMBER_WINE="Orangewein"
+
+__L_en_AMBER_WINE_LONG="Natural Amber Wine"
+__L_fr_AMBER_WINE_LONG="Vin Ambré Naturel"
+__L_el_AMBER_WINE_LONG="Φυσικό Κεχριμπαρένιο Κρασί"
+__L_de_AMBER_WINE_LONG="Natürlicher Orangewein"
+
+__L_en_AMBER_WINE_DESC="
+Dry Amber Wine produced from a blend of old Greek grape varieties from 50-year
+old unirrigated vines. Hand-picked, wild fermented on skins and stems for the 
+full duration of fermentation, unfined and unfiltered. Without added sulphites 
+or oenological additives.
+
+Inherently volatile and alive, each vintage and even each bottle expresses its 
+own singular identity. Within the bottle it continues to evolve, revealing 
+different facets day to day, even glass to glass. Once tasted, it can never be 
+tasted again. Suitable for long term cellaring under proper conditions.
+
+A maximum of 2000 bottles are produced annually, each hand numbered and signed.
+"
+
+__L_fr_AMBER_WINE_DESC="
+Vin Ambré Sec élaboré à partir d’un assemblage d’anciennes variétés grecques,
+issues de vignes non irriguées âgées de cinquante ans. Récolté à la main,
+fermenté spontanément sur peaux et rafles pendant toute la durée de la
+fermentation, ni collé ni filtré. Sans ajout de sulfites ni d’additifs
+œnologiques.
+
+Fondamentalement vivant et volontairement instable, chaque millésime, et même
+chaque bouteille, exprime une identité singulière. À l’intérieur de la
+bouteille, le vin continue d’évoluer, révélant des facettes différentes d’un
+jour à l’autre, voire d’un verre à l’autre. Une fois goûté, il ne peut jamais
+être goûté de nouveau à l’identique. Convient à une garde de longue durée dans 
+des conditions appropriées.
+
+Un maximum de 2 000 bouteilles est produit chaque année, chacune numérotée et
+signée à la main.
+"
+
+__L_el_AMBER_WINE_DESC="
+Ξηρός Κεχριμπαρένιος Οίνος, παραγόμενος από μείγμα παλαιών ελληνικών ποικιλιών
+αμπέλου, από μη αρδευόμενα κλήματα ηλικίας περίπου 50 ετών. Τα σταφύλια
+τρυγούνται με το χέρι και ζυμώνονται αυθόρμητα πάνω στις φλούδες και τα
+κοτσάνια για όλη τη διάρκεια της ζύμωσης. Ο οίνος είναι αφινάριστος και
+αφιλτράριστος, χωρίς προσθήκη θειωδών ή άλλων οινολογικών προσθέτων.
+
+Εκ φύσεως ευμετάβλητος και ζωντανός, κάθε εσοδεία και ακόμη και κάθε φιάλη
+εκφράζει τη δική της μοναδική ταυτότητα. Εντός της φιάλης συνεχίζει να
+εξελίσσεται, αποκαλύπτοντας διαφορετικές όψεις από μέρα σε μέρα, ακόμη και από
+ποτήρι σε ποτήρι. Μόλις γευτεί, δεν μπορεί ποτέ να ξαναγευτεί. Ιδανικό για 
+μακροχρόνια παλαίωση υπό κατάλληλες συνθήκες.
+
+Παράγονται κατ’ ανώτατο όριο 2.000 φιάλες ετησίως, καθεμία αριθμημένη και
+υπογεγραμμένη στο χέρι.
+"
+
+__L_de_AMBER_WINE_DESC="
+Trockener Orangewein aus einer Cuvée alter griechischer Rebsorten von 50 Jahre
+alten, nicht bewässerten Rebstöcken. Von Hand gelesen, mit Schalen und Stielen
+über die gesamte Dauer der Gärung spontan vergoren, ungeschönt und unfiltriert.
+Ohne zugesetzte Sulfite oder önologische Zusatzstoffe.
+
+Von Natur aus flüchtig und lebendig bringt jeder Jahrgang und sogar jede
+einzelne Flasche ihre eigene, unverwechselbare Identität zum Ausdruck. In der
+Flasche entwickelt sich der Wein weiter und offenbart von Tag zu Tag, ja sogar
+von Glas zu Glas, unterschiedliche Facetten. Einmal verkostet, kann er nie
+wieder auf dieselbe Weise verkostet werden. Geeignet für eine langfristige 
+Lagerung unter geeigneten Bedingungen.
+
+Jährlich werden maximal 2000 Flaschen produziert, jede einzelne von Hand
+nummeriert und signiert.
+"
+
+__L_en_AMBER_VINEGAR_DESC="
+Natural Amber Wine Vinegar made from our Natural Amber Wine transformed slowly 
+and spontaneously through natural acetification, driven by indigenous acetic 
+bacteria, without inoculation, additives, or intervention. 
+
+Left deliberately unfiltered and unpasteurized, and accepting natural
+instability, the vinegar retains the living mother together with fine lees and
+suspended material from the original wine. These components include active
+acetic acid bacteria, residual yeasts, organic acids, polysaccharides, enzymes,
+and trace phenolic compounds derived from skin fermentation. Their continued
+presence is the result of spontaneous acetification and the absence of added
+sulphites or stabilizing treatments, leaving the vinegar biologically active
+and alive within the bottle.
+
+A maximum of 200 bottles are produced annually, each hand numbered and signed.
+"
+
+__L_fr_AMBER_VINEGAR_DESC="
+Vinaigre De Vin Ambré Naturel, élaboré à partir de notre vin ambré naturel,
+transformé lentement et spontanément par acétification naturelle, sous l’action
+de bactéries acétiques indigènes, sans ensemencement, additifs ni intervention.
+
+Délibérément laissé non filtré et non pasteurisé, et acceptant une instabilité
+naturelle, ce vinaigre conserve la mère vivante ainsi que des lies fines et des
+matières en suspension issues du vin d’origine. Ces composants comprennent des
+bactéries acétiques actives, des levures résiduelles, des acides organiques,
+des polysaccharides, des enzymes et des composés phénoliques à l’état de
+traces, issus de la fermentation pelliculaire. Leur présence continue résulte
+de l’acétification spontanée et de l’absence de sulfites ajoutés ou de
+traitements de stabilisation, laissant le vinaigre biologiquement actif et
+vivant dans la bouteille.
+
+Un maximum de 200 bouteilles est produit chaque année, chacune numérotée et
+signée à la main.
+"
+
+__L_el_AMBER_VINEGAR_DESC="
+Ξύδι Φυσικού Κεχριμπαρένιου Κρασιού, από το φυσικό κεχριμπαρένιο κρασί μας, που
+μετατράπηκε αργά και φυσικά σε ξίδι με αυθόρμητη οξική ζύμωση, από τα δικά του
+φυσικά βακτήρια, χωρίς πρόσθετα ή παρεμβάσεις.
+
+Το ξίδι παραμένει αφιλτράριστο και μη παστεριωμένο. Διατηρεί τη φυσική «μητέρα»
+του ξιδιού, μαζί με λεπτά κατακάθια και αιωρούμενα στοιχεία από το αρχικό
+κρασί. Περιέχει ζωντανά οξικά βακτήρια, ζύμες, οργανικά οξέα και φυσικές
+ενώσεις από τη ζύμωση των φλοιών. Όλα αυτά παραμένουν επειδή δεν έχουν
+προστεθεί θειώδη ή άλλες ουσίες σταθεροποίησης, αφήνοντας το ξίδι ζωντανό μέσα
+στο μπουκάλι.
+
+Παράγονται έως 200 μπουκάλια τον χρόνο, όλα αριθμημένα και υπογεγραμμένα στο
+χέρι.
+"
+
+__L_de_AMBER_VINEGAR_DESC="
+Natürlicher Amberwein-Essig, hergestellt aus unserem natürlichen Amberwein, der
+sich langsam und spontan durch natürliche Azetifizierung unter der Wirkung
+indigener Essigsäurebakterien verwandelt, ohne Beimpfung, Zusatzstoffe oder
+Eingriffe.
+
+Bewusst ungefiltert und unpasteurisiert belassen und mit Akzeptanz natürlicher
+Instabilität bewahrt dieser Essig die lebende Essigmutter sowie feine
+Trubstoffe und Schwebeteilchen aus dem ursprünglichen Wein. Diese Bestandteile
+umfassen aktive Essigsäurebakterien, verbleibende Hefen, organische Säuren,
+Polysaccharide, Enzyme und phenolische Spurenverbindungen aus der
+Maischegärung. Ihre fortdauernde Präsenz ist das Ergebnis spontaner
+Azetifizierung und des Verzichts auf zugesetzte Sulfite oder stabilisierende
+Behandlungen, wodurch der Essig biologisch aktiv und lebendig in der Flasche
+bleibt.
+
+Maximal 200 Flaschen werden jährlich produziert, jede einzeln von Hand
+nummeriert und signiert.
+"
+
+__L_en_APPLICATION="Available by enquiry only: "
+__L_fr_APPLICATION="Disponible sur demande uniquement : "
+__L_el_APPLICATION="Διαθέσιμο μόνο κατόπιν αιτήματος: "
+__L_de_APPLICATION="Nur auf Anfrage erhältlich: "
+
+__L_en_APPLICATION_SOON="Available from Summer 2026 by enquiry only: "
+__L_fr_APPLICATION_SOON="Disponible à partir de l’été 2026, uniquement sur demande : "
+__L_el_APPLICATION_SOON="Διαθέσιμο από το καλοκαίρι του 2026 μόνο κατόπιν αιτήματος: "
+__L_de_APPLICATION_SOON="Ab Sommer 2026 nur auf Anfrage erhältlich: "
+
+__L_en_SHIPPING="Please note: We can only ship within the EU at this time."
+__L_fr_SHIPPING=""
+__L_el_SHIPPING=""
+__L_de_SHIPPING=""
+
+__L_en_CONTACT="Contact"
+__L_fr_CONTACT="Nous Contacter"
+__L_el_CONTACT="Επικοινωνία"
+__L_de_CONTACT="Kontakt"
+
+__L_en_PERSONAL="personal"
+__L_fr_PERSONAL="personnel"
+__L_el_PERSONAL="προσωπικός"
+__L_de_PERSONAL="persönlich"
+
+__L_en_SOCIAL_MEDIA="Social media"
+__L_fr_SOCIAL_MEDIA="Réseaux sociaux"
+__L_el_SOCIAL_MEDIA="Κοινωνικά δίκτυα"
+__L_de_SOCIAL_MEDIA="Soziale medien"
+
+__L_en_PAGE_NOT_FOUND="Page not found."
+__L_fr_PAGE_NOT_FOUND="Page non trouvée."
+__L_el_PAGE_NOT_FOUND="Η σελίδα δεν βρέθηκε."
+__L_de_PAGE_NOT_FOUND="Seite nicht gefunden."
+
+__L_en_REPORT_ISSUE="Report Issue"
+__L_fr_REPORT_ISSUE="Signaler un problème"
+__L_el_REPORT_ISSUE="Αναφορά προβλήματος"
+__L_de_REPORT_ISSUE="Problem melden"
+
+__L_en_PRIVACY_POLICY="Privacy Policy"
+__L_fr_PRIVACY_POLICY="Politique de confidentialité"
+__L_el_PRIVACY_POLICY="Πολιτική Απορρήτου"
+__L_de_PRIVACY_POLICY="Datenschutzerklärung"
+
+__L_en_LAST_UPDATED="Last Updated"
+__L_fr_LAST_UPDATED="Dernière mise à jour"
+__L_el_LAST_UPDATED="Τελευταία ενημέρωση"
+__L_de_LAST_UPDATED="Zuletzt aktualisiert"
+
+__L_en_PRIVACY_POLICY_DESC="
+### 1. Data Controller
+
+This website is operated by **$__L_en_ELISSAVET**.
+
+Email: **[$SITE_EMAIL_CONTACT](mailto:SITE_EMAIL_CONTACT)**
+
+The controller is responsible for the processing of your personal data under
+the General Data Protection Regulation (GDPR).
+
+### 2. Personal Data We Collect
+
+We only collect personal data that you choose to provide when you contact us by
+email. This may include:
+
+* Your email address
+* Your name
+* Any information you include in your message
+
+We do not collect personal data automatically through this website and we do
+not use tracking, analytics, or advertising cookies.
+
+### 3. Purpose of Processing
+
+We process your personal data only to:
+
+* Respond to your inquiries
+* Communicate with you about your request
+
+We do not use your data for marketing, profiling, or automated decision making.
+
+### 4. Legal Basis for Processing
+
+We process your personal data under the following GDPR legal bases:
+
+* **Consent** under Article 6(1)(a) GDPR when you choose to contact us
+* **Legitimate interest** under Article 6(1)(f) GDPR to reply to your inquiry
+  and maintain correspondence
+
+### 5. Data Retention
+
+We keep your personal data only as long as necessary to respond to your inquiry
+and for any related administrative or legal obligations.
+
+Email correspondence is normally retained for up to **24 months**, unless a
+longer retention period is required by law.
+
+You may request deletion of your data at any time.
+
+### 6. Data Sharing and Processors
+
+We do not sell or rent your personal data.
+
+Your data may be processed by the following service providers solely for the
+technical operation of the website and email communication:
+
+* **Fastmail Pty Ltd** as our email service provider for receiving and sending
+  emails
+* **Netlify Inc.** for website hosting and technical infrastructure
+
+These providers act as data processors and process personal data only on our
+instructions. Their processing is governed by their own GDPR compliant privacy
+and security policies.
+
+### 7. International Data Transfers
+
+Some technical data may be processed outside the European Union by our service
+providers. Where this occurs, it is protected by appropriate safeguards such as
+Standard Contractual Clauses or equivalent GDPR approved mechanisms.
+
+### 8. Data Security
+
+We take appropriate technical and organizational measures to protect your
+personal data against loss, misuse, unauthorized access, and disclosure.
+
+### 9. Your Rights
+
+Under the GDPR, you have the right to:
+
+* Access your personal data
+* Correct inaccurate data
+* Request deletion of your data
+* Restrict or object to processing
+* Request data portability
+* Withdraw your consent at any time
+
+To exercise your rights, contact us at **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**.
+
+You also have the right to lodge a complaint with your local data protection
+authority.
+
+### 10. Cookies
+
+This website does not use cookies, analytics, tracking scripts, or advertising
+technologies.
+
+### 11. Changes to This Policy
+
+We may update this policy to reflect legal or operational changes. The latest
+version will always be available on this page with the updated date.
+"
+
+__L_fr_PRIVACY_POLICY_DESC="
+### 1. Responsable du traitement
+
+Ce site web est exploité par **$__L_fr_ELISSAVET**.
+
+E-mail : **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**
+
+Le responsable du traitement est chargé du traitement de vos données
+personnelles conformément au Règlement général sur la protection des données
+(RGPD).
+
+### 2. Données personnelles que nous collectons
+
+Nous ne collectons que les données personnelles que vous choisissez de fournir
+lorsque vous nous contactez par e-mail. Cela peut inclure :
+
+* Votre adresse e-mail
+* Votre nom
+* Toute information que vous incluez dans votre message
+
+Nous ne collectons pas de données personnelles automatiquement via ce site web
+et nous n’utilisons pas de cookies de suivi, d’analyse ou de publicité.
+
+### 3. Finalités du traitement
+
+Nous traitons vos données personnelles uniquement pour :
+
+* Répondre à vos demandes
+* Communiquer avec vous au sujet de votre requête
+
+Nous n’utilisons pas vos données à des fins de marketing, de profilage ou de
+prise de décision automatisée.
+
+### 4. Base juridique du traitement
+
+Nous traitons vos données personnelles sur les bases juridiques suivantes
+prévues par le RGPD :
+
+* **Consentement** en vertu de l’article 6(1)(a) du RGPD lorsque vous
+choisissez de nous contacter
+* **Intérêt légitime** en vertu de l’article 6(1)(f) du RGPD afin de répondre à
+votre demande et de maintenir la correspondance
+
+### 5. Durée de conservation des données
+
+Nous conservons vos données personnelles uniquement pendant la durée nécessaire
+pour répondre à votre demande et pour toute obligation administrative ou légale
+associée.
+
+La correspondance par e-mail est généralement conservée jusqu’à **24 mois**,
+sauf si une période de conservation plus longue est requise par la loi.
+
+Vous pouvez demander la suppression de vos données à tout moment.
+
+### 6. Partage des données et sous-traitants
+
+Nous ne vendons ni ne louons vos données personnelles.
+
+Vos données peuvent être traitées par les prestataires de services suivants
+uniquement pour le fonctionnement technique du site web et la communication par
+e-mail :
+
+* **Fastmail Pty Ltd** en tant que fournisseur de service de messagerie pour la
+réception et l’envoi d’e-mails
+* **Netlify Inc.** pour l’hébergement du site web et l’infrastructure technique
+
+Ces prestataires agissent en tant que sous-traitants et traitent les données
+personnelles uniquement selon nos instructions. Leur traitement est régi par
+leurs propres politiques de confidentialité et de sécurité conformes au RGPD.
+
+### 7. Transferts internationaux de données
+
+Certaines données techniques peuvent être traitées en dehors de l’Union
+européenne par nos prestataires de services. Dans ce cas, elles sont protégées
+par des garanties appropriées telles que les clauses contractuelles types ou
+des mécanismes équivalents approuvés par le RGPD.
+
+### 8. Sécurité des données
+
+Nous mettons en place des mesures techniques et organisationnelles appropriées
+pour protéger vos données personnelles contre la perte, l’utilisation abusive,
+l’accès non autorisé et la divulgation.
+
+### 9. Vos droits
+
+En vertu du RGPD, vous disposez des droits suivants :
+
+* Accéder à vos données personnelles
+* Rectifier des données inexactes
+* Demander la suppression de vos données
+* Limiter ou vous opposer au traitement
+* Demander la portabilité des données
+* Retirer votre consentement à tout moment
+
+Pour exercer vos droits, contactez-nous à **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**.
+
+Vous avez également le droit d’introduire une réclamation auprès de votre
+autorité locale de protection des données.
+
+### 10. Cookies
+
+Ce site web n’utilise pas de cookies, d’outils d’analyse, de scripts de suivi
+ni de technologies publicitaires.
+
+### 11. Modifications de cette politique
+
+Nous pouvons mettre à jour cette politique afin de refléter des changements
+juridiques ou opérationnels. La version la plus récente sera toujours
+disponible sur cette page avec la date de mise à jour.
+"
+
+__L_el_PRIVACY_POLICY_DESC="
+### 1. Υπεύθυνος Επεξεργασίας
+
+Ο παρών ιστότοπος λειτουργεί από την **$__L_el_ELISSAVET**.
+
+Email: **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**
+
+Ο υπεύθυνος επεξεργασίας είναι αρμόδιος για την επεξεργασία των προσωπικών σας
+δεδομένων σύμφωνα με τον Γενικό Κανονισμό για την Προστασία Δεδομένων (ΓΚΠΔ).
+
+### 2. Προσωπικά δεδομένα που συλλέγουμε
+
+Συλλέγουμε μόνο τα προσωπικά δεδομένα που επιλέγετε να μας παρέχετε όταν
+επικοινωνείτε μαζί μας μέσω email. Αυτά μπορεί να περιλαμβάνουν:
+
+* Τη διεύθυνση email σας
+* Το όνομά σας
+* Οποιαδήποτε πληροφορία περιλαμβάνεται στο μήνυμά σας
+
+Δεν συλλέγουμε προσωπικά δεδομένα αυτόματα μέσω αυτού του ιστότοπου και δεν
+χρησιμοποιούμε cookies παρακολούθησης, ανάλυσης ή διαφήμισης.
+
+### 3. Σκοπός της επεξεργασίας
+
+Επεξεργαζόμαστε τα προσωπικά σας δεδομένα μόνο για να:
+
+* Απαντήσουμε στα αιτήματά σας
+* Επικοινωνήσουμε μαζί σας σχετικά με το αίτημά σας
+
+Δεν χρησιμοποιούμε τα δεδομένα σας για σκοπούς μάρκετινγκ, κατάρτισης προφίλ ή
+αυτοματοποιημένης λήψης αποφάσεων.
+
+### 4. Νομική βάση επεξεργασίας
+
+Επεξεργαζόμαστε τα προσωπικά σας δεδομένα βάσει των ακόλουθων νομικών βάσεων
+του ΓΚΠΔ:
+
+* **Συγκατάθεση** σύμφωνα με το άρθρο 6(1)(α) του ΓΚΠΔ όταν επιλέγετε να
+επικοινωνήσετε μαζί μας
+* **Έννομο συμφέρον** σύμφωνα με το άρθρο 6(1)(στ) του ΓΚΠΔ για να απαντήσουμε
+στο αίτημά σας και να διατηρήσουμε την αλληλογραφία
+
+### 5. Διατήρηση δεδομένων
+
+Διατηρούμε τα προσωπικά σας δεδομένα μόνο για όσο χρονικό διάστημα είναι
+απαραίτητο για την απάντηση στο αίτημά σας και για τυχόν συναφείς διοικητικές ή
+νομικές υποχρεώσεις.
+
+Η αλληλογραφία μέσω email διατηρείται συνήθως έως και **24 μήνες**, εκτός αν
+απαιτείται μεγαλύτερη περίοδος διατήρησης από τη νομοθεσία.
+
+Μπορείτε να ζητήσετε τη διαγραφή των δεδομένων σας οποιαδήποτε στιγμή.
+
+### 6. Κοινοποίηση δεδομένων και εκτελούντες την επεξεργασία
+
+Δεν πωλούμε ούτε εκμισθώνουμε τα προσωπικά σας δεδομένα.
+
+Τα δεδομένα σας μπορεί να υποβάλλονται σε επεξεργασία από τους ακόλουθους
+παρόχους υπηρεσιών αποκλειστικά για την τεχνική λειτουργία του ιστότοπου και
+την επικοινωνία μέσω email:
+
+* **Fastmail Pty Ltd** ως πάροχος υπηρεσιών email για τη λήψη και αποστολή μηνυμάτων
+* **Netlify Inc.** για τη φιλοξενία του ιστότοπου και την τεχνική υποδομή
+
+Οι πάροχοι αυτοί ενεργούν ως εκτελούντες την επεξεργασία και επεξεργάζονται τα
+προσωπικά δεδομένα μόνο κατόπιν των οδηγιών μας. Η επεξεργασία τους διέπεται
+από τις δικές τους πολιτικές προστασίας δεδομένων και ασφάλειας που είναι
+σύμφωνες με τον ΓΚΠΔ.
+
+### 7. Διεθνείς διαβιβάσεις δεδομένων
+
+Ορισμένα τεχνικά δεδομένα ενδέχεται να υποβάλλονται σε επεξεργασία εκτός της
+Ευρωπαϊκής Ένωσης από τους παρόχους υπηρεσιών μας. Σε αυτές τις περιπτώσεις,
+προστατεύονται από κατάλληλες εγγυήσεις, όπως Τυπικές Συμβατικές Ρήτρες ή
+ισοδύναμους μηχανισμούς εγκεκριμένους από τον ΓΚΠΔ.
+
+### 8. Ασφάλεια δεδομένων
+
+Λαμβάνουμε κατάλληλα τεχνικά και οργανωτικά μέτρα για την προστασία των
+προσωπικών σας δεδομένων από απώλεια, κακή χρήση, μη εξουσιοδοτημένη πρόσβαση
+και αποκάλυψη.
+
+### 9. Τα δικαιώματά σας
+
+Σύμφωνα με τον ΓΚΠΔ, έχετε τα ακόλουθα δικαιώματα:
+
+* Πρόσβαση στα προσωπικά σας δεδομένα
+* Διόρθωση ανακριβών δεδομένων
+* Αίτημα διαγραφής των δεδομένων σας
+* Περιορισμό ή αντίρρηση στην επεξεργασία
+* Αίτημα φορητότητας των δεδομένων
+* Ανάκληση της συγκατάθεσής σας οποιαδήποτε στιγμή
+
+Για να ασκήσετε τα δικαιώματά σας, επικοινωνήστε μαζί μας στο **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**.
+
+Έχετε επίσης το δικαίωμα να υποβάλετε καταγγελία στην αρμόδια αρχή προστασίας
+δεδομένων της χώρας σας.
+
+### 10. Cookies
+
+Ο παρών ιστότοπος δεν χρησιμοποιεί cookies, εργαλεία ανάλυσης, scripts
+παρακολούθησης ή τεχνολογίες διαφήμισης.
+
+### 11. Αλλαγές στην παρούσα πολιτική
+
+Ενδέχεται να ενημερώνουμε την παρούσα πολιτική ώστε να αντικατοπτρίζει νομικές
+ή λειτουργικές αλλαγές. Η πιο πρόσφατη έκδοση θα είναι πάντα διαθέσιμη σε αυτή
+τη σελίδα με την ενημερωμένη ημερομηνία.
+"
+
+__L_de_PRIVACY_POLICY_DESC="
+### 1. Verantwortlicher
+
+Diese Website wird von **$__L_de_ELISSAVET** betrieben.
+
+E-Mail: **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**
+
+Der Verantwortliche ist für die Verarbeitung Ihrer personenbezogenen Daten
+gemäß der Datenschutz-Grundverordnung (DSGVO) verantwortlich.
+
+### 2. Personenbezogene Daten, die wir erheben
+
+Wir erheben nur personenbezogene Daten, die Sie uns freiwillig zur Verfügung
+stellen, wenn Sie uns per E-Mail kontaktieren. Dazu können gehören:
+
+* Ihre E-Mail-Adresse
+* Ihr Name
+* Alle Informationen, die Sie in Ihrer Nachricht angeben
+
+Wir erheben keine personenbezogenen Daten automatisch über diese Website und
+verwenden keine Tracking-, Analyse- oder Werbe-Cookies.
+
+### 3. Zweck der Verarbeitung
+
+Wir verarbeiten Ihre personenbezogenen Daten ausschließlich, um:
+
+* Ihre Anfragen zu beantworten
+* Mit Ihnen im Zusammenhang mit Ihrer Anfrage zu kommunizieren
+
+Wir verwenden Ihre Daten nicht für Marketing, Profiling oder automatisierte
+Entscheidungsfindung.
+
+### 4. Rechtsgrundlage der Verarbeitung
+
+Wir verarbeiten Ihre personenbezogenen Daten auf Grundlage der folgenden
+Rechtsgrundlagen der DSGVO:
+
+* **Einwilligung** gemäß Artikel 6 Absatz 1 Buchstabe a DSGVO, wenn Sie uns
+kontaktieren
+* **Berechtigtes Interesse** gemäß Artikel 6 Absatz 1 Buchstabe f DSGVO, um
+Ihre Anfrage zu beantworten und die Korrespondenz zu führen
+
+### 5. Speicherdauer
+
+Wir speichern Ihre personenbezogenen Daten nur so lange, wie es zur
+Beantwortung Ihrer Anfrage sowie für damit verbundene administrative oder
+rechtliche Verpflichtungen erforderlich ist.
+
+E-Mail-Korrespondenz wird in der Regel bis zu **24 Monate** aufbewahrt, sofern
+keine längere gesetzliche Aufbewahrungsfrist besteht.
+
+Sie können jederzeit die Löschung Ihrer Daten verlangen.
+
+### 6. Weitergabe von Daten und Auftragsverarbeiter
+
+Wir verkaufen oder vermieten Ihre personenbezogenen Daten nicht.
+
+Ihre Daten können ausschließlich zum technischen Betrieb der Website und zur
+E-Mail-Kommunikation von folgenden Dienstleistern verarbeitet werden:
+
+* **Fastmail Pty Ltd** als unser E-Mail-Dienstleister für den Empfang und Versand von E-Mails
+* **Netlify Inc.** für das Hosting der Website und die technische Infrastruktur
+
+Diese Dienstleister handeln als Auftragsverarbeiter und verarbeiten
+personenbezogene Daten nur auf unsere Weisung. Ihre Verarbeitung unterliegt
+ihren eigenen DSGVO-konformen Datenschutz- und Sicherheitsrichtlinien.
+
+### 7. Internationale Datenübermittlungen
+
+Einige technische Daten können von unseren Dienstleistern außerhalb der
+Europäischen Union verarbeitet werden. In diesen Fällen werden sie durch
+geeignete Garantien wie Standardvertragsklauseln oder gleichwertige, von der
+DSGVO genehmigte Mechanismen geschützt.
+
+### 8. Datensicherheit
+
+Wir treffen geeignete technische und organisatorische Maßnahmen, um Ihre
+personenbezogenen Daten vor Verlust, Missbrauch, unbefugtem Zugriff und
+unbefugter Offenlegung zu schützen.
+
+### 9. Ihre Rechte
+
+Nach der DSGVO haben Sie folgende Rechte:
+
+* Auskunft über Ihre personenbezogenen Daten
+* Berichtigung unrichtiger Daten
+* Löschung Ihrer Daten zu verlangen
+* Einschränkung oder Widerspruch gegen die Verarbeitung
+* Datenübertragbarkeit zu verlangen
+* Ihre Einwilligung jederzeit zu widerrufen
+
+Zur Ausübung Ihrer Rechte kontaktieren Sie uns unter **[$SITE_EMAIL_CONTACT](mailto:$SITE_EMAIL_CONTACT)**.
+
+Sie haben zudem das Recht, Beschwerde bei Ihrer zuständigen
+Datenschutzaufsichtsbehörde einzulegen.
+
+### 10. Cookies
+
+Diese Website verwendet keine Cookies, Analyse-Tools, Tracking-Skripte oder
+Werbetechnologien.
+
+### 11. Änderungen dieser Richtlinie
+
+Wir können diese Richtlinie aktualisieren, um rechtliche oder betriebliche
+Änderungen widerzuspiegeln. Die jeweils aktuelle Version ist immer auf dieser
+Seite mit dem aktualisierten Datum verfügbar.
+"
+
+
