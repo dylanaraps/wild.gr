@@ -1,0 +1,90 @@
+#!/bin/sh -e
+#
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+
+#
+# Ensure the config file is only loaded once.
+#
+case ${SITE_CONFIG_LOADED:-} in '') 
+  . ./config
+  . "$SITE_LANG_TEXT"
+esac
+
+#
+# Define language.
+#
+DPP_FILE=${DPP_FILE#"$SITE_PUB_DIR/"}
+DPP_LANG=${DPP_FILE%%/*}
+DPP_LANG=${DPP_LANG#[!/]*.html}
+case ${#DPP_LANG} in 2) ;; *) DPP_LANG=; esac
+DPP_LANG_DEF=${SITE_LANG%" ${SITE_LANG#* }"}
+
+#
+# Import a template.
+#
+use() {
+  "$SITE_DPP_COMPILE_PROG" < "$SITE_TPL_DIR/$1.html" |
+    DPP_CAT=cat . /dev/stdin
+}
+
+#
+# Unset tracked variables.
+#
+clr() {
+  unset "$@" ${V:-}
+}
+
+#
+# Set a variable and keep track of it.
+#
+dec() {
+  V="${V:-} $1" v=${2#[\"\']} v=${v%[\"\']}
+  export "$1=$v"
+}
+
+#
+# Load the variables set in a page's header.
+#
+src() {
+  clr b
+  while IFS== read -r k v; do case ${b:-}-$k in
+     -"$SITE_DPP_BLOCK") b=1 ;;
+    1-"$SITE_DPP_BLOCK")   b=; break ;;
+    1-*) case "$k
+$v" in [a-zA-Z_]*"
+"*?*) dec "$k" "$v"; esac esac done < "$1"
+}
+
+#
+# Generate a random int.
+#
+rnd() {
+  read -r _rn 2>/dev/null < /dev/urandom || _rn=$$
+  export "$1=$((${#_rn} % ${2:-$((${#_rn} + 1))}))"
+}
+
+#
+# Insert internationalized text.
+#
+int() {
+  for v do
+    eval export "$v=\"\$__L_${DPP_LANG:-"$DPP_LANG_DEF"}_$v\""
+  done
+}
+
+#
+# Fix base64 which for some reason wraps its output.
+#
+b64() {
+  base64 | tr -d '\n'
+}
+
+#
+# Collapse multi paragraph text to single line.
+#
+fld() {
+  sed '1h;1!H;$!d;g;s/[[:space:]]\+/ /g;s/^ //;s/ $//' << EOF
+$*
+EOF
+}
+

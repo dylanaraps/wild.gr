@@ -1,0 +1,539 @@
+---# Self-contained wine e-label page.
+---int META_DESC
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>WILD Amber Wine (2025) e-label</title>
+  <style>$(cat "$SITE_PUB_DIR/${SITE_STYLE%.*}.css")
+---
+$SITE_CSS_CMD <<EOF
+.tab {
+  margin: 3rem 0 0;
+  text-align: center;
+}
+
+.tab input[type="radio"] {
+  display: none;
+}
+
+.tab label {
+  background: #fff;
+  border-radius: .5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  transition: .2s;
+}
+
+.tab label:hover,
+.tab *:checked + label {
+  filter: invert(1);
+}
+
+#t0:checked ~ #c0,
+#t1:checked ~ #c1,
+#t2:checked ~ #c2,
+#t3:checked ~ #c3,
+#t4:checked ~ #c4,
+#t5:checked ~ #c5,
+#t6:checked ~ #c6,
+#t7:checked ~ #c7,
+#t8:checked ~ #c8,
+#t9:checked ~ #c9,
+#t10:checked ~ #c10,
+#t11:checked ~ #c11,
+#t12:checked ~ #c12,
+#t13:checked ~ #c13,
+#t14:checked ~ #c14,
+#t15:checked ~ #c15,
+#t16:checked ~ #c16,
+#t17:checked ~ #c17,
+#t18:checked ~ #c18,
+#t19:checked ~ #c19,
+#t20:checked ~ #c20,
+#t21:checked ~ #c21,
+#t22:checked ~ #c22,
+#t23:checked ~ #c23 {
+  display: block;
+}
+
+.tab-content {
+  display: none;
+  text-align: left;
+}
+EOF
+---
+</style>
+  <meta name=description content="$META_DESC">
+  ${SITE_FAVICON_ICO:+<link rel=\"alternate icon\" href=\"data:image/x-icon;base64,$(b64 < "$SITE_PUB_DIR/$SITE_FAVICON_ICO")\" sizes=any>}
+</head>
+<body>
+<section><div class=con>
+<div class="tab">
+<input type="radio" name="tabs" id="t0" value="en" checked>
+<label for="t0">English</label>
+<input type="radio" name="tabs" id="t1" value="el">
+<label for="t1">Ελληνικά</label>
+<input type="radio" name="tabs" id="t2" value="de">
+<label for="t2">Deutsch</label>
+<input type="radio" name="tabs" id="t3" value="fr">
+<label for="t3">Français</label>
+<input type="radio" name="tabs" id="t4" value="it">
+<label for="t4">Italiano</label>
+<input type="radio" name="tabs" id="t5" value="es">
+<label for="t5">Español</label>
+<input type="radio" name="tabs" id="t6" value="pl">
+<label for="t6">Polski</label>
+<input type="radio" name="tabs" id="t7" value="ro">
+<label for="t7">Română</label>
+<input type="radio" name="tabs" id="t8" value="nl">
+<label for="t8">Nederlands</label>
+<input type="radio" name="tabs" id="t9" value="pt">
+<label for="t9">Português</label>
+<input type="radio" name="tabs" id="t10" value="sv">
+<label for="t10">Svenska</label>
+<input type="radio" name="tabs" id="t11" value="cs">
+<label for="t11">Čeština</label>
+<input type="radio" name="tabs" id="t12" value="hu">
+<label for="t12">Magyar</label>
+<input type="radio" name="tabs" id="t13" value="da">
+<label for="t13">Dansk</label>
+<input type="radio" name="tabs" id="t14" value="fi">
+<label for="t14">Suomi</label>
+<input type="radio" name="tabs" id="t15" value="sk">
+<label for="t15">Slovenčina</label>
+<input type="radio" name="tabs" id="t16" value="bg">
+<label for="t16">български</label>
+<input type="radio" name="tabs" id="t17" value="hr">
+<label for="t17">Hrvatski</label>
+<input type="radio" name="tabs" id="t18" value="lt">
+<label for="t18">Lietuvių</label>
+<input type="radio" name="tabs" id="t19" value="sl">
+<label for="t19">Slovenščina</label>
+<input type="radio" name="tabs" id="t20" value="lv">
+<label for="t20">Latviešu</label>
+<input type="radio" name="tabs" id="t21" value="et">
+<label for="t21">Eesti</label>
+<input type="radio" name="tabs" id="t22" value="mt">
+<label for="t22">Malti</label>
+<input type="radio" name="tabs" id="t23" value="ga">
+<label for="t23">Gaeilge</label>
+
+<section class="tab-content" id="c0"><div class="con">
+<h2>WILD Amber Wine (2025) e-label</h2>
+<p><b>Ingredients:</b> grapes</p>
+<p><b>Allergens:</b> Contains sulphites</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Nutritional Information (per 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energy</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Fat</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">of which saturates</td><td>0 g</td></tr>
+<tr><td>Carbohydrate</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">of which sugars</td><td>0.6 g</td></tr>
+<tr><td>Protein</td><td>0 g</td></tr>
+<tr><td>Salt</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c1"><div class="con">
+<h2>WILD Amber Wine (2025) ηλεκτρονική ετικέτα</h2>
+<p><b>Συστατικά:</b> σταφύλια</p>
+<p><b>Αλλεργιογόνα:</b> Περιέχει θειώδη</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Διατροφική Δήλωση (ανά 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Ενέργεια</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Λιπαρά</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">εκ των οποίων κορεσμένα</td><td>0 g</td></tr>
+<tr><td>Υδατάνθρακες</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">εκ των οποίων σάκχαρα</td><td>0.6 g</td></tr>
+<tr><td>Πρωτεΐνες</td><td>0 g</td></tr>
+<tr><td>Αλάτι</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c2"><div class="con">
+<h2>WILD Amber Wine (2025) E-Label</h2>
+<p><b>Zutaten:</b> Trauben</p>
+<p><b>Allergene:</b> Enthält Sulfite</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Nährwertangaben (pro 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energie</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Fett</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">davon gesättigte Fettsäuren</td><td>0 g</td></tr>
+<tr><td>Kohlenhydrate</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">davon Zucker</td><td>0.6 g</td></tr>
+<tr><td>Eiweiß</td><td>0 g</td></tr>
+<tr><td>Salz</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c3"><div class="con">
+<h2>WILD Amber Wine (2025) e-label</h2>
+<p><b>Ingrédients :</b> raisins</p>
+<p><b>Allergènes :</b> Contient des sulfites</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Déclaration nutritionnelle (pour 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Énergie</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Matières grasses</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">dont acides gras saturés</td><td>0 g</td></tr>
+<tr><td>Glucides</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">dont sucres</td><td>0.6 g</td></tr>
+<tr><td>Protéines</td><td>0 g</td></tr>
+<tr><td>Sel</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c4"><div class="con">
+<h2>WILD Amber Wine (2025) etichetta elettronica</h2>
+<p><b>Ingredienti:</b> uva</p>
+<p><b>Allergeni:</b> Contiene solfiti</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Dichiarazione nutrizionale (per 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energia</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Grassi</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">di cui acidi grassi saturi</td><td>0 g</td></tr>
+<tr><td>Carboidrati</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">di cui zuccheri</td><td>0.6 g</td></tr>
+<tr><td>Proteine</td><td>0 g</td></tr>
+<tr><td>Sale</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c5"><div class="con">
+<h2>WILD Amber Wine (2025) etiqueta electrónica</h2>
+<p><b>Ingredientes:</b> uvas</p>
+<p><b>Alérgenos:</b> Contiene sulfitos</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Información nutricional (por 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energía</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Grasas</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">de las cuales saturadas</td><td>0 g</td></tr>
+<tr><td>Hidratos de carbono</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">de los cuales azúcares</td><td>0.6 g</td></tr>
+<tr><td>Proteínas</td><td>0 g</td></tr>
+<tr><td>Sal</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c6"><div class="con">
+<h2>WILD Amber Wine (2025) etykieta elektroniczna</h2>
+<p><b>Składniki:</b> winogrona</p>
+<p><b>Alergeny:</b> Zawiera siarczyny</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Wartość odżywcza (na 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Wartość energetyczna</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Tłuszcz</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">w tym kwasy tłuszczowe nasycone</td><td>0 g</td></tr>
+<tr><td>Węglowodany</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">w tym cukry</td><td>0.6 g</td></tr>
+<tr><td>Białko</td><td>0 g</td></tr>
+<tr><td>Sól</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c7"><div class="con">
+<h2>WILD Amber Wine (2025) etichetă electronică</h2>
+<p><b>Ingrediente:</b> struguri</p>
+<p><b>Alergeni:</b> Conține sulfiți</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Declarație nutrițională (per 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energie</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Grăsimi</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">din care acizi grași saturați</td><td>0 g</td></tr>
+<tr><td>Carbohidrați</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">din care zaharuri</td><td>0.6 g</td></tr>
+<tr><td>Proteine</td><td>0 g</td></tr>
+<tr><td>Sare</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c8"><div class="con">
+<h2>WILD Amber Wine (2025) e-label</h2>
+<p><b>Ingrediënten:</b> druiven</p>
+<p><b>Allergenen:</b> Bevat sulfieten</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Voedingswaarde (per 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energie</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Vetten</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">waarvan verzadigde vetzuren</td><td>0 g</td></tr>
+<tr><td>Koolhydraten</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">waarvan suikers</td><td>0.6 g</td></tr>
+<tr><td>Eiwitten</td><td>0 g</td></tr>
+<tr><td>Zout</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c9"><div class="con">
+<h2>WILD Amber Wine (2025) rótulo eletrónico</h2>
+<p><b>Ingredientes:</b> uvas</p>
+<p><b>Alergénios:</b> Contém sulfitos</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Declaração nutricional (por 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energia</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Lípidos</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">dos quais saturados</td><td>0 g</td></tr>
+<tr><td>Hidratos de carbono</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">dos quais açúcares</td><td>0.6 g</td></tr>
+<tr><td>Proteínas</td><td>0 g</td></tr>
+<tr><td>Sal</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c10"><div class="con">
+<h2>WILD Amber Wine (2025) e-etikett</h2>
+<p><b>Ingredienser:</b> druvor</p>
+<p><b>Allergener:</b> Innehåller sulfiter</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Näringsdeklaration (per 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energi</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Fett</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">varav mättat fett</td><td>0 g</td></tr>
+<tr><td>Kolhydrater</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">varav sockerarter</td><td>0.6 g</td></tr>
+<tr><td>Protein</td><td>0 g</td></tr>
+<tr><td>Salt</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c11"><div class="con">
+<h2>WILD Amber Wine (2025) e-etiketa</h2>
+<p><b>Složení:</b> hrozny</p>
+<p><b>Alergeny:</b> Obsahuje siřičitany</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Výživové údaje (na 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energie</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Tuky</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">z toho nasycené mastné kyseliny</td><td>0 g</td></tr>
+<tr><td>Sacharidy</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">z toho cukry</td><td>0.6 g</td></tr>
+<tr><td>Bílkoviny</td><td>0 g</td></tr>
+<tr><td>Sůl</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c12"><div class="con">
+<h2>WILD Amber Wine (2025) e-címke</h2>
+<p><b>Összetevők:</b> szőlő</p>
+<p><b>Allergének:</b> Szulfitokat tartalmaz</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Tápértékjelölés (100 ml-ben):</th></tr></thead>
+<tbody>
+<tr><td>Energia</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Zsír</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">amelyből telített zsírsavak</td><td>0 g</td></tr>
+<tr><td>Szénhidrát</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">amelyből cukrok</td><td>0.6 g</td></tr>
+<tr><td>Fehérje</td><td>0 g</td></tr>
+<tr><td>Só</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c13"><div class="con">
+<h2>WILD Amber Wine (2025) e-mærkat</h2>
+<p><b>Ingredienser:</b> druer</p>
+<p><b>Allergener:</b> Indeholder sulfitter</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Næringsdeklaration (pr. 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energi</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Fedt</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">heraf mættede fedtsyrer</td><td>0 g</td></tr>
+<tr><td>Kulhydrat</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">heraf sukkerarter</td><td>0.6 g</td></tr>
+<tr><td>Protein</td><td>0 g</td></tr>
+<tr><td>Salt</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c14"><div class="con">
+<h2>WILD Amber Wine (2025) e-merkintä</h2>
+<p><b>Ainesosat:</b> viinirypäleet</p>
+<p><b>Allergeenit:</b> Sisältää sulfiitteja</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Ravintoarvoilmoitus (per 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energia</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Rasva</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">josta tyydyttynyttä</td><td>0 g</td></tr>
+<tr><td>Hiilihydraatit</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">joista sokereita</td><td>0.6 g</td></tr>
+<tr><td>Proteiini</td><td>0 g</td></tr>
+<tr><td>Suola</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c15"><div class="con">
+<h2>WILD Amber Wine (2025) e-označenie</h2>
+<p><b>Zloženie:</b> hrozno</p>
+<p><b>Alergény:</b> Obsahuje siričitany</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Výživové údaje (na 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energia</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Tuky</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">z toho nasýtené mastné kyseliny</td><td>0 g</td></tr>
+<tr><td>Sacharidy</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">z toho cukry</td><td>0.6 g</td></tr>
+<tr><td>Bielkoviny</td><td>0 g</td></tr>
+<tr><td>Soľ</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c16"><div class="con">
+<h2>WILD Amber Wine (2025) електронен етикет</h2>
+<p><b>Съставки:</b> грозде</p>
+<p><b>Алергени:</b> Съдържа сулфити</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Хранителна информация (за 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Енергия</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Мазнини</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">от които наситени мастни киселини</td><td>0 g</td></tr>
+<tr><td>Въглехидрати</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">от които захари</td><td>0.6 g</td></tr>
+<tr><td>Белтъци</td><td>0 g</td></tr>
+<tr><td>Сол</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c17"><div class="con">
+<h2>WILD Amber Wine (2025) e-oznaka</h2>
+<p><b>Sastojci:</b> grožđe</p>
+<p><b>Alergeni:</b> Sadrži sulfite</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Hranjiva vrijednost (na 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energija</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Masti</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">od kojih zasićene masne kiseline</td><td>0 g</td></tr>
+<tr><td>Ugljikohidrati</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">od kojih šećeri</td><td>0.6 g</td></tr>
+<tr><td>Bjelančevine</td><td>0 g</td></tr>
+<tr><td>Sol</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c18"><div class="con">
+<h2>WILD Amber Wine (2025) elektroninė etiketė</h2>
+<p><b>Sudedamosios dalys:</b> vynuogės</p>
+<p><b>Alergenai:</b> Sudėtyje yra sulfitų</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Maistinė vertė (100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energinė vertė</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Riebalai</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">iš kurių sočiosios riebalų rūgštys</td><td>0 g</td></tr>
+<tr><td>Angliavandeniai</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">iš kurių cukrūs</td><td>0.6 g</td></tr>
+<tr><td>Baltymai</td><td>0 g</td></tr>
+<tr><td>Druska</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c19"><div class="con">
+<h2>WILD Amber Wine (2025) e-oznaka</h2>
+<p><b>Sestavine:</b> grozdje</p>
+<p><b>Alergeni:</b> Vsebuje sulfite</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Hranilna vrednost (na 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Energijska vrednost</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Maščobe</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">od tega nasičene maščobne kisline</td><td>0 g</td></tr>
+<tr><td>Ogljikovi hidrati</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">od tega sladkorji</td><td>0.6 g</td></tr>
+<tr><td>Beljakovine</td><td>0 g</td></tr>
+<tr><td>Sol</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c20"><div class="con">
+<h2>WILD Amber Wine (2025) e-etiķete</h2>
+<p><b>Sastāvdaļas:</b> vīnogas</p>
+<p><b>Alergēni:</b> Satur sulfītus</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Uzturvērtības deklarācija (uz 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Enerģētiskā vērtība</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Tauki</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">tostarp piesātinātās taukskābes</td><td>0 g</td></tr>
+<tr><td>Ogļhidrāti</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">tostarp cukuri</td><td>0.6 g</td></tr>
+<tr><td>Olbaltumvielas</td><td>0 g</td></tr>
+<tr><td>Sāls</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c21"><div class="con">
+<h2>WILD Amber Wine (2025) e-silt</h2>
+<p><b>Koostisosad:</b> viinamarjad</p>
+<p><b>Allergeenid:</b> Sisaldab sulfiteid</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Toitumisalane teave (100 ml kohta):</th></tr></thead>
+<tbody>
+<tr><td>Energiasisaldus</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Rasvad</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">millest küllastunud rasvhapped</td><td>0 g</td></tr>
+<tr><td>Süsivesikud</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">millest suhkrud</td><td>0.6 g</td></tr>
+<tr><td>Valgud</td><td>0 g</td></tr>
+<tr><td>Sool</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c22"><div class="con">
+<h2>WILD Amber Wine (2025) tikketta elettronika</h2>
+<p><b>Ingredjenti:</b> għeneb</p>
+<p><b>Allerġeni:</b> Fih sulfiti</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Dikjarazzjoni nutrizzjonali (għal kull 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Enerġija</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Xaħam</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">li minnhom xaħam saturat</td><td>0 g</td></tr>
+<tr><td>Karboidrati</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">li minnhom zokkor</td><td>0.6 g</td></tr>
+<tr><td>Proteina</td><td>0 g</td></tr>
+<tr><td>Melħ</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="tab-content" id="c23"><div class="con">
+<h2>WILD Amber Wine (2025) lipéad leictreonach</h2>
+<p><b>Comhábhair:</b> fíonchaora</p>
+<p><b>Ailléirginí:</b> Tá sulfítí ann</p>
+<table class="nutrition-table">
+<thead><tr><th colspan="2">Faisnéis chothaithe (in aghaidh 100 ml):</th></tr></thead>
+<tbody>
+<tr><td>Fuinneamh</td><td>271 kJ / 65 kcal</td></tr>
+<tr><td>Saill</td><td>0 g</td></tr>
+<tr><td style="padding-left:2rem">dá bhfuil saill sháithithe</td><td>0 g</td></tr>
+<tr><td>Carbaihiodráití</td><td>1.6 g</td></tr>
+<tr><td style="padding-left:2rem">dá bhfuil siúcraí</td><td>0.6 g</td></tr>
+<tr><td>Próitéin</td><td>0 g</td></tr>
+<tr><td>Salann</td><td>0 g</td></tr>
+</tbody></table>
+</div></section>
+</div></section>
+</div></section>
+<br><br><br>
+<script>
+document.querySelector(\`input[name=tabs][value=\${(navigator.languages?.[0]||navigator.language||navigator.userLanguage||'en').slice(0,2)}]\`).checked=1
+</script>
+</body>
