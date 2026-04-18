@@ -1,0 +1,17 @@
+#!/bin/sh -euf
+#
+# Copyright 2026 - Dylan Araps - All Rights Reserved
+#
+
+. ./config
+
+git push origin master
+export GIT_INDEX_FILE="$SITE_TMP_DIR/.git-idx-$$"
+git read-tree HEAD
+git rm -r --cached "$SITE_PUB_DIR"
+t=$(git write-tree)
+rm -f "$GIT_INDEX_FILE" 
+unset GIT_INDEX_FILE
+r=$(git commit-tree "$t" -m snapshot)
+git push clean "$r:refs/heads/master" --force-with-lease
+

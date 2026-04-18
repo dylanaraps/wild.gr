@@ -1,0 +1,4 @@
+.ninja_*
+config.ninja
+ass/*.jpg
+ass/*/*.jpg
