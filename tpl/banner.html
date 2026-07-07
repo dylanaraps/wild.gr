@@ -1,0 +1,130 @@
+---
+# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+int HOME_DESC HOME_ISLAND 
+---
+<style>
+.banner {
+  height: auto;
+  min-height: 100vh;
+  min-height: 100svh;
+  position: relative;
+}
+
+.banner * {
+  color: #fff !important;
+}
+
+.banner h1 {
+  margin: 0;
+}
+
+.euboea {
+  display: inline-block;
+  fill: #fff;
+  margin: -.5rem 1rem;
+  vertical-align: top;
+  width: 3rem;
+}
+
+.banner svg {
+  fill: #fff;
+  height: 100%;
+  max-height: 300px;
+}
+
+.loud {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -100px;
+}
+
+.banner .con {
+  padding: 0 1rem;
+}
+
+.logo4 svg {
+  margin-top: 3rem;
+  max-height: 500px !important;
+}
+
+.words {
+  display: inline-block;
+  margin-left: 4vw;
+  position: relative;
+  max-width: 600px;
+  overflow:hidden;
+  width: 100%;
+}
+
+.words svg {
+  animation: cw 8s infinite;
+  display: block;
+  max-width: 100%;
+  opacity: 0;
+  position: absolute;
+}
+
+.words svg:nth-child(1) { animation-delay: 0s; }
+.words svg:nth-child(2) { animation-delay: 2s; }
+.words svg:nth-child(3) { animation-delay: 4s; }
+.words svg:nth-child(4) { animation-delay: 6s; }
+
+@keyframes cw {
+  0%   { opacity: 0; transform: translateY(30%); }
+  5%   { opacity: 1; transform: translateY(0); }
+  25%  { opacity: 1; transform: translateY(0); }
+  30%  { opacity: 0; transform: translateY(-30%); }
+  100% { opacity: 0; transform: translateY(-30%); }
+}
+
+.nav-toggle {
+  filter: none !important;
+}
+
+.bighdr {
+  flex: 1;
+  display: flex;
+  align-items: center;   
+  justify-content: center;
+  flex-direction:column;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 15vh;
+}
+
+.bighdr svg {
+  display: block;
+  width: 100vw;
+  padding: 1rem;
+}
+
+.bigdiv svg {
+  max-width: 72px;
+}
+
+.bighdr p {
+  font-size: clamp(1.8rem, calc(2vw + 0.5rem), 2rem);
+  # font-family: var(--font-head);
+}
+
+nav > div > ul {
+margin: 2rem auto;
+}
+</style>
+<header class=banner>
+---
+case $images in
+  '') style= no_caption= src="$image" alt="${image_alt:-banner}" use img ;;
+   *) style= class= use fadeshow ;;
+esac
+logo=none mnml= no_wave= bg=none hbg=none fg="#fff" class= use nav
+---
+<div class=bighdr>
+  <span class=biglog>$(cat "$SITE_PUB_DIR/logo3.svg")</span>
+  <p class=medlog style="text-align:center">$HOME_DESC, $HOME_ISLAND</p>
+  <span class=bigdiv>$(cat "$SITE_PUB_DIR/div.svg")</span>
+  </div>
+</header>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+---
+for f in [a-z]*.md; do
+  f=${f%.md}
+  d=$(git log -1 --pretty="format:%cI" "$f.md" 2>/dev/null || :)
+
+  for l in "" ${SITE_LANG#?? }; do
+    echo "<url><loc>$SITE_URL/${l:+"$l/"}${f#index}</loc>
+${d:+<lastmod>$d</lastmod>}</url>"
+  done
+done
+---
+</urlset>

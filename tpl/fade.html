@@ -1,0 +1,3 @@
+---# Copyright 2025-2026 - Dylan Araps - All Rights Reserved
+<!-- Dead simple fade-in on scroll which also respects those without javascript. -->
+<script>document.head.innerHTML+="<style>@media(prefers-reduced-motion:no-preference){.f{transition:1s .2s}}.g{opacity:0;${shift:+transform:translateY($shift)}}</style>";let e=new IntersectionObserver(t=>{t.map(t=>{t.isIntersecting&&(t.target.classList.remove("g"),e.unobserve(t.target))})}),t=document.querySelectorAll("$sel");t.forEach(t=>{t.classList.add("f","g"),e.observe(t)})</script>
