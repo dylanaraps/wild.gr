@@ -1,4 +1,4 @@
-# WILD Website (<https://wild.gr>)
+# OLD WILD Website (<https://wild.gr>)
 
 Source code for WILD. All Rights Reserved.
 
